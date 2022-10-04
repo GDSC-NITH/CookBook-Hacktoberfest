@@ -14,12 +14,12 @@
 
 Below are the steps to follow to contribute to this project:
 
-**1.** Fork [this](https://github.com/wasimreja/book-finder) repository.
+**1.** Fork [this](https://github.com/GDSC-NITH/CookBook-Hacktoberfest) repository.
 
 **2.** Clone your forked copy of the project.
 
 ```
-git clone https://github.com/<your_user_name>/book-finder.git
+git clone https://github.com/<your_user_name>/CookBook-Hacktoberfest.git
 ```
 
 where `your_user_name` is your GitHub username.
@@ -27,13 +27,13 @@ where `your_user_name` is your GitHub username.
 **3.** Navigate to the project directory.
 
 ```
-cd book-finder
+cd CookBook-Hacktoberfest
 ```
 
 **4.** Add a reference(remote) to the original repository.
 
 ```
-git remote add upstream https://github.com/wasimreja/book-finder.git
+git remote add upstream https://github.com/GDSC-NITH/CookBook-Hacktoberfest.git
 ```
 
 **5.** Check the remotes for this repository.
@@ -65,7 +65,7 @@ git add .
 **10.** Commit your changes .
 
 ```
-git commit -m "bla bla bla"
+git commit -m "new changes"
 ```
 
 **11.** Push the committed changes in your feature branch to your remote repo.
