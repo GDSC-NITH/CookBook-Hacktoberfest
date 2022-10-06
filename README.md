@@ -8,11 +8,10 @@
     <img src="https://forthebadge.com/images/badges/open-source.svg" />
 </div>
 
-***
 
 <h3 align="center">PRESENTED BY</h3>
 <div align="center">
-
+<img src="https://user-images.githubusercontent.com/91022462/194231133-2a503fbd-3715-4e9a-9692-e2666537b3c2.png" \>
 </div>
 
 
