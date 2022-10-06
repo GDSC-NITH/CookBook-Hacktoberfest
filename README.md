@@ -14,7 +14,7 @@
 
 <h3 align="center">PRESENTED BY</h3>
 <div align="center">
-![google-developers-logo-F8BF3155AC-seeklogo com](https://user-images.githubusercontent.com/69354224/194227769-6316ce1c-952f-4b8c-a409-11c00f444204.png)
+![google-developers-logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgdsc.community.dev%2F&psig=AOvVaw0LWGu8LWj2pfpL79SnrV3_&ust=1665123015694000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMj83875yvoCFQAAAAAdAAAAABAI)
 
 ## **Google Developer Student Clubs**
 ## National Institute of Technology Hamirpur
