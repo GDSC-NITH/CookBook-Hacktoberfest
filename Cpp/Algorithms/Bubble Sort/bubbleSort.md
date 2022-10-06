@@ -239,9 +239,7 @@ return 0;
 
 ### **Output**
 
-<div align="center">
-   ![bubble-sort-algorithm14](https://user-images.githubusercontent.com/69354224/194345111-e76df66e-10c8-4c8f-bb4b-58815c779e9d.png)
-</div>
+![bubble-sort-algorithm14](https://user-images.githubusercontent.com/69354224/194345111-e76df66e-10c8-4c8f-bb4b-58815c779e9d.png)
 
 ***
 <br>
