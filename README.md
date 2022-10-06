@@ -10,6 +10,20 @@
     <img src="https://forthebadge.com/images/badges/open-source.svg" />
 </div>
 
+***
+
+## What is CookBook?
+
+A **cookbook** in the **programming** context is collection of tiny programs that each demonstrate a particular **programming** concept. The **Cookbook** Method is the process of learning a **programming language** by building up a repository of small programs that implement specific **programming** concepts.
+
+<br>
+
+<div align="center">
+    <img src="https://dribbble.com/shots/4884082-Procrastination/attachments/10651251?mode=media" />
+</div>
+
+***
+
 ## Getting Started
 
 Below are the steps to follow to contribute to this project:
@@ -81,6 +95,8 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create pull request`.
 
 **15.** And you are done creating a pull request to this project. Be patient while your PR is reviewed.
+
+***
 
 ## Contributors
 
