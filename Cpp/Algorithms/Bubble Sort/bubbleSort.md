@@ -38,21 +38,54 @@ To understand the working of bubble sort algorithm, let's take an unsorted array
 
 Let the elements of array are -
 
+<div align="center">
+   ![bubble-sort-algorithm1](https://user-images.githubusercontent.com/69354224/194344310-8d7a668c-7988-4438-b7d0-9e895b8b983a.png)
+</div>
+
 **First Pass**
 
 Sorting will start from the initial two elements. Let compare them to check which is greater.
 
+<div align="center">
+   ![bubble-sort-algorithm2](https://user-images.githubusercontent.com/69354224/194344371-6c79ae67-12ef-488a-a216-00e07b4b3b80.png)
+</div>
+
 Here, 32 is greater than 13 (32 > 13), so it is already sorted. Now, compare 32 with 26.
+
+<div align="center">
+   ![bubble-sort-algorithm3](https://user-images.githubusercontent.com/69354224/194344436-ef9b3d63-a673-4296-bcc9-86c390b91725.png)
+
+</div>
 
 Here, 26 is smaller than 36. So, swapping is required. After swapping new array will look like -
 
+<div align="center">
+   ![bubble-sort-algorithm4](https://user-images.githubusercontent.com/69354224/194344515-9ce9aa92-678c-4b7b-97bb-a0d51c443a0a.png)
+
+</div>
+
 Now, compare 32 and 35.
+
+<div align="center">
+   ![bubble-sort-algorithm5](https://user-images.githubusercontent.com/69354224/194344565-d337845f-06e3-48cc-85bc-bf98200d33d9.png)
+
+</div>
 
 Here, 35 is greater than 32. So, there is no swapping required as they are already sorted.
 
 Now, the comparison will be in between 35 and 10.
 
+<div align="center">
+   ![bubble-sort-algorithm6](https://user-images.githubusercontent.com/69354224/194344618-89aa7054-7602-48b4-89e0-b49339fce21c.png)
+
+</div>
+
 Here, 10 is smaller than 35 that are not sorted. So, swapping is required. Now, we reach at the end of the array. After first pass, the array will be -
+
+<div align="center">
+   ![bubble-sort-algorithm7](https://user-images.githubusercontent.com/69354224/194344679-eb770e55-f240-44e0-a721-afa3153f020c.png)
+
+</div>
 
 Now, move to the second iteration.
 
@@ -60,7 +93,17 @@ Now, move to the second iteration.
 
 The same process will be followed for second iteration.
 
+<div align="center">
+   ![bubble-sort-algorithm8](https://user-images.githubusercontent.com/69354224/194344834-0c2403dd-68d0-4a76-9636-0fbc15c91297.png)
+
+</div>
+
 Here, 10 is smaller than 32. So, swapping is required. After swapping, the array will be -
+
+<div align="center">
+   ![bubble-sort-algorithm9](https://user-images.githubusercontent.com/69354224/194344870-c40492a5-2f90-47e7-94f9-57ab0c3f1a77.png)
+
+</div>
 
 Now, move to the third iteration.
 
@@ -68,7 +111,17 @@ Now, move to the third iteration.
 
 The same process will be followed for third iteration.
 
+<div align="center">
+   ![bubble-sort-algorithm10](https://user-images.githubusercontent.com/69354224/194344920-00266592-414b-4c9d-a669-f67340f88f96.png)
+
+</div>
+
 Here, 10 is smaller than 26. So, swapping is required. After swapping, the array will be -
+
+<div align="center">
+   ![bubble-sort-algorithm11](https://user-images.githubusercontent.com/69354224/194344964-4a1afb34-a46f-490f-9dca-e6e708c8b223.png)
+
+</div>
 
 Now, move to the fourth iteration.
 AD
@@ -76,6 +129,11 @@ AD
 **Fourth pass**
 
 Similarly, after the fourth iteration, the array will be -
+
+<div align="center">
+   ![bubble-sort-algorithm12](https://user-images.githubusercontent.com/69354224/194345011-be73905c-b3e7-4df2-815a-d304dc49e6b0.png)
+
+</div>
 
 Hence, there is no swapping required, so the array is completely sorted.
 
@@ -180,6 +238,11 @@ return 0;
 <br>
 
 ### **Output**
+
+<div align="center">
+   ![bubble-sort-algorithm14](https://user-images.githubusercontent.com/69354224/194345111-e76df66e-10c8-4c8f-bb4b-58815c779e9d.png)
+</div>
+
 ***
 <br>
 
