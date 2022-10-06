@@ -47,6 +47,8 @@ We have got all **domains** for you. Your all **valid contribution** will be joy
 
 ## These things should be there in your contribution
 
+Create a **folder** in the **respective domain** you want to contribute. The folder will be named after the topic on which you will be writing. Create a **Markup Documentation** file there and mention the following in that file:
+
 * About the topic
 * About all properties related to topic
 * Link to official docs of that topic
@@ -66,6 +68,12 @@ There should be **precise** information as we are not judging you on the basis o
 ![be031f8d02ca8cc404d44be54ee2c493](https://user-images.githubusercontent.com/69354224/194224095-342ef116-8537-4b94-ae75-143d70e92e6a.gif)
 
 </div>
+
+⚠️⚠️⚠️
+<br>
+**Remember that:-** All your contributions before **31st October** will only be fruitful in gaining you **hacktoberfest swags**. 
+<br>
+So what are you waiting for? *Start contributing now !!!*
 
 
 ***
