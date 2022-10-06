@@ -5,8 +5,7 @@
 <h1 align="center"> CookBook - Hacktoberfest</h1>
 <h3 align="center">Find the book you want to read next!</h3>
 <div align="center">
-    <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
-    <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" />
+    
     <img src="https://forthebadge.com/images/badges/open-source.svg" />
 </div>
 
