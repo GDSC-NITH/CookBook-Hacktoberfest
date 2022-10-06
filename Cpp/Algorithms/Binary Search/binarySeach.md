@@ -54,6 +54,7 @@ int main(void) {
    }else{
       cout<< num <<" is present at index "<< index <<" in the array";
    }
+   
    return 0;
 }
 ```
