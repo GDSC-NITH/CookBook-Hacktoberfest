@@ -157,11 +157,12 @@ class MyTextPage extends StatelessWidget {
 <br>
 
 ### **Output**
-
+***
 <br>
 
-<img src="assets/textWidgetOutputFlutter.png" alt="Text Widget Output" width="250" height="520">
-
+<p align="center">
+  <img src="https://static.javatpoint.com/tutorial/flutter/images/flutter-text2.png" alt="Text Widget Output" width="250" height="520">
+</p>
 <br>
 
 ***
