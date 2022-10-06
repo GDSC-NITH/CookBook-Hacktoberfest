@@ -18,9 +18,7 @@ A **cookbook** in the **programming** context is collection of tiny programs tha
 
 <br>
 
-<div align="center">
-    <img src="https://dribbble.com/shots/4884082-Procrastination/attachments/10651251?mode=media" />
-</div>
+![8147bc69f7ec23dc42e282c7869b9e1e](https://user-images.githubusercontent.com/69354224/194215676-3d71bab0-8a0a-42ee-8f81-8ba972535b32.gif)
 
 ***
 
