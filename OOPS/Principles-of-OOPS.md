@@ -5,6 +5,7 @@ These are Encapsulation, Data Abstraction, Polymorphism and Inheritance.
 These are also called as four pillars of Object Oriented Programming.
 
 
+
 ## Encapsulation :
 
 Encapsulation is the mechanism of hiding of data implementation by restricting access to public methods. 
@@ -42,6 +43,7 @@ public class Employee
 
 
 
+
 ## Abstraction :
 
 Abstraction can be defined as hiding internal implementation and showing only the required features or set of services that are offered. 
@@ -51,11 +53,15 @@ In a way, one class should not know the inner details of another in order to use
 
 
 
+
+
 ## Inheritance :
 
 Inheritances expresses “is-a” and/or “has-a” relationship between two objects. 
 Using Inheritance, In derived classes we can reuse the code of existing super classes. 
 In Java, concept of “is-a” is based on class inheritance (using extends) or interface implementation (using implements).
+
+
 
 
 ## Polymorphism :
@@ -77,6 +83,8 @@ public void print(Collection<String> collection)
 }
 
 ```
+
+
 
 ## **Resources:**
 <br>
