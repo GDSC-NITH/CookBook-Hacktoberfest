@@ -6,7 +6,6 @@
 <br>
 
 ***
-<br>
 
 ## **Algorithm**
 
@@ -27,7 +26,6 @@ end BubbleSort
 <br>
 
 ***
-<br>
 
 ## **Working of Bubble Sort**
 <br>
@@ -106,7 +104,6 @@ Hence, there is no swapping required, so the array is completely sorted.
 <br>
 
 ***
-<br>
 
 ## **Bubble Sort Complexity** 
 
@@ -135,7 +132,6 @@ Hence, there is no swapping required, so the array is completely sorted.
 <br>
 
 ***
-<br>
 
 ## **Important points to be noted:**
 
@@ -151,8 +147,6 @@ Also, this algorithm is not suitable for large data sets as its average and wors
 <br>
 
 ***
-
-<br>
 
 ## **SAMPLE**
 
@@ -206,11 +200,6 @@ return 0;
 ### **Output**
 
 ![bubble-sort-algorithm14](https://user-images.githubusercontent.com/69354224/194345111-e76df66e-10c8-4c8f-bb4b-58815c779e9d.png)
-
-***
-<br>
-
-
 <br>
 
 ***
