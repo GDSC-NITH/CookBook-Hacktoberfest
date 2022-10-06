@@ -32,7 +32,7 @@ Here it does not matters, whether you are a **beginner** or an **expert**. Grab 
 
 <div align="center">
 
-![8147bc69f7ec23dc42e282c7869b9e1e](https://dribbble.com/shots/2601097-Hello-Dribbble/attachments/9386714?mode=media)
+![b5b923a8c784b7610ca3e72872879690](https://user-images.githubusercontent.com/69354224/194224163-f665762d-b9ee-40ca-802c-f176f8e373ed.gif)
 
 </div>
 
@@ -58,7 +58,7 @@ There should be **precise** information as we are not judging you on the basis o
 
 <div align="center">
 
-![8147bc69f7ec23dc42e282c7869b9e1e](https://dribbble.com/shots/4801105-Animation/attachments/10603366?mode=media)
+![be031f8d02ca8cc404d44be54ee2c493](https://user-images.githubusercontent.com/69354224/194224095-342ef116-8537-4b94-ae75-143d70e92e6a.gif)
 
 </div>
 
@@ -66,6 +66,12 @@ There should be **precise** information as we are not judging you on the basis o
 ***
 
 ## Getting Started
+
+<div align="center">
+
+![54b5b572a814ce721e1b01adabed5c84](https://user-images.githubusercontent.com/69354224/194224448-561dc77d-2d68-415f-a9bf-345f807202c1.gif)
+
+</div>
 
 Below are the steps to follow to contribute to this project:
 
