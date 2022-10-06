@@ -15,9 +15,6 @@
 <h3 align="center">PRESENTED BY</h3>
 <div align="center">
 
-![google-developers-logo](https://drive.google.com/file/d/1QLI42dRctZvWodbHx87z1-Iazd91Rh6v/view?usp=sharing)
-## **Google Developer Student Clubs**
-## National Institute of Technology Hamirpur
 </div>
 
 
