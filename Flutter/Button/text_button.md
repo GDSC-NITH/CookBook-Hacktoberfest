@@ -1,7 +1,7 @@
 # Button
 ## **About Text Button Widget**
 
-[Click here to check in official docs of Flutter]()
+[Click here to check in official docs of Flutter](https://docs.flutter.dev/development/ui/widgets/material)
 
 It is a text label button that does not have much decoration and displayed without any elevation. The flat button has two required properties that are: **child and onPressed()**. It is mostly used in toolbars, dialogs, or inline with other content. By default, the flat button has no color, and its text is black. But, we can use color to the button and text using color and textColor attributes, respectively.
 
@@ -27,7 +27,7 @@ TextButton({
   MaterialStatesController? statesController, 
   Widget child})
 ```
-package:flutter/src/widgets/text.dart
+package:flutter/material.dart
 
 <br>
 
@@ -75,7 +75,9 @@ package:flutter/src/widgets/text.dart
 
 <br>
 
-**Write Some Points Here**
+* The static styleFrom method is a convenient way to create a text button **ButtonStyle** from simple values.
+
+* If the **onPressed** and **onLongPress** callbacks are null, then this button will be disabled, it will not react to touch. 
 
 <br>
 
