@@ -112,4 +112,4 @@ document.getElementById('sumButton').addEventListener("click", displaySum);
 <br>
 
 * [**FREECODECAMP**](https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/)
-* [**GFG**]([https://www.geeksforgeeks.org/bubble-sort/](https://www.geeksforgeeks.org/web-development/)
+* [**GFG**](https://www.geeksforgeeks.org/bubble-sort/](https://www.geeksforgeeks.org/web-development/)
