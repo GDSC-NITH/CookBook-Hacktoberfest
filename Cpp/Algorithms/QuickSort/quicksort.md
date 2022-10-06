@@ -252,3 +252,9 @@ Quicksort algorithm is used when
 -   the programming language is good for recursion
 -   time complexity matters
 -   space complexity matters
+
+## **Resources:**
+<br>
+
+* [**JAVAPOINT**](https://www.javatpoint.com/quick-sort)
+* [**GFG**](https://www.geeksforgeeks.org/quick-sort/)
