@@ -18,7 +18,50 @@ A **cookbook** in the **programming** context is collection of tiny programs tha
 
 <br>
 
+<div align="center">
+
 ![8147bc69f7ec23dc42e282c7869b9e1e](https://user-images.githubusercontent.com/69354224/194215676-3d71bab0-8a0a-42ee-8f81-8ba972535b32.gif)
+
+</div>
+
+***
+
+## How to contribute?
+
+Here it does not matters, whether you are a **beginner** or an **expert**. Grab your coffee mug, take a sip and start your **Hacktoberfest journey** with us!!
+
+<div align="center">
+
+![8147bc69f7ec23dc42e282c7869b9e1e](https://dribbble.com/shots/2601097-Hello-Dribbble/attachments/9386714?mode=media)
+
+</div>
+
+We have got all **domains** for you. Your all **valid contribution** will be joyfully welcomed whether you are a **developer** or a **competitive programmer**. All you have to do is to pick a topic that is not added to the repository, study it, and then demonstrate the information in a **Markup Documentation** file as you usually see in the official docs or websites like GFG, Javapoint, etc.
+
+***
+
+## These things should be there in your contribution
+
+* About the topic
+* About all properties related to topic
+* Link to official docs of that topic
+* Important facts related to that topic (for eg. some default properties)
+* Sample code
+* Output of the sample code
+* Resources
+
+***
+
+## Keep in mind
+
+There should be **precise** information as we are not judging you on the basis of an essay competition. It should be **easy to understand** for anyone. You should go through multiple sources of information and **study them well** before submitting.
+
+<div align="center">
+
+![8147bc69f7ec23dc42e282c7869b9e1e](https://dribbble.com/shots/4801105-Animation/attachments/10603366?mode=media)
+
+</div>
+
 
 ***
 
