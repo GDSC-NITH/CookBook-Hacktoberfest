@@ -170,7 +170,7 @@ root.render(<TodoApp />);
 
 ### **Output**
 <p align="center">
-  <img src="/Users/suryanshsinghbisen/Downloads/programming/GDSC codebook/CookBook-Hacktoberfest/assets/OutputOne.png" alt="An Application" width="250" height="250">
+  <img src="../assets/OutputOne.png" alt="An Application" width="250" height="250">
 </p>
 <br>
 
@@ -230,7 +230,7 @@ root.render(<MarkdownEditor />);
 
 ### **Output**
 <p align="center">
-  <img src="/Users/suryanshsinghbisen/Downloads/programming/GDSC codebook/CookBook-Hacktoberfest/assets/OutputTwo.png" alt="An Application" width="250" height="300">
+  <img src="../assets/OutputTwo.png" alt="An Application" width="250" height="300">
 </p>
 
 <br>
