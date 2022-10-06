@@ -15,8 +15,11 @@
 <h3 align="center">PRESENTED BY</h3>
 <div align="center">
 
+   ![download](https://user-images.githubusercontent.com/69354224/194227388-1118110e-c468-4142-a7a3-45562eb86039.png)
+
+   
 ## **Google Developer Student Clubs**
-### National Institute of Technology Hamirpur
+## National Institute of Technology Hamirpur
 </div>
 
 
