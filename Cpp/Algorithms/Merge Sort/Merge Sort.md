@@ -11,7 +11,8 @@
 
  ***Here, a problem is divided into multiple sub-problems. Each sub-problem is solved individually. Finally, sub-problems are combined to form the final solution***.
 
-![Capture](https://cdn.programiz.com/cdn/farfuture/PRTu8e23Uz212XPrrzN_uqXkVZVY_E0Ta8GZp61-zvw/mtime:1586425911/sites/tutorial2program/files/merge-sort-example_0.png)
+
+![Capture](https://user-images.githubusercontent.com/115069289/194476735-3d1ac541-f527-4301-89af-827139ec36d7.jpg)
 
 
 ## **Divide and Conquer Strategy**
@@ -43,7 +44,10 @@ END MERGE_SORT
 * * * * *
 ## **Working of Merge sort Algorithm**
 --------------------
+
 ![Capture](https://favtutor.com/resources/images/uploads/merge_sort_python.png)
+
+
   Now, let's see the working of merge sort Algorithm.
 
   To understand the working of the merge sort algorithm, let's take an unsorted array. 
@@ -55,14 +59,18 @@ According to the merge sort, first divide the given array into two equal halves.
 ***Merge sort keeps dividing the list into equal parts until it cannot be further divided***.
 
 * As there are eight elements in the given array, so it is divided into two arrays of size 4.
+
 ![Capture](https://static.javatpoint.com/ds/images/merge-sort2.png)
 
 
 * Now, again divide these two arrays into halves. As they are of size 4, so divide them into new arrays of size 2.
+
 ![Capture](https://static.javatpoint.com/ds/images/merge-sort3.png)
 
 * Now, again divide these arrays to get the atomic value that cannot be further divided.
+
 ![Capture](https://static.javatpoint.com/ds/images/merge-sort4.png)
+
 * Now, combine them in the same manner they were broken.
 
 In combining, first compare the element of each array and then combine them into another array in sorted order.
@@ -70,13 +78,17 @@ In combining, first compare the element of each array and then combine them into
  - So, first compare 12 and 31, both are in sorted positions. 
   - Then compare 25 and 8, and in the list of two values, put 8 first followed by 25. 
  - Then compare 32 and 17, sort them and put 17 first followed by 32. After that, compare 40 and 42, and place them sequentially.
+ 
 ![Capture](https://static.javatpoint.com/ds/images/merge-sort5.png)
 
 In the next iteration of combining, now compare the arrays with two data values and merge them into an array of found values in sorted order.
+
 ![Capture](https://static.javatpoint.com/ds/images/merge-sort6.png)
 
 **Now, there is a final merging of the arrays. After the final merging of above arrays, the array will look like -*
+
 ![Capture](https://static.javatpoint.com/ds/images/merge-sort7.png)
+
 **Now, the array is completely sorted.*
 * * * * *
 
