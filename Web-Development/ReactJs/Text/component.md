@@ -45,6 +45,10 @@ Hello Taylor
 <br>
 
 ***
+<br>
+
+
+***
 
 <br>
 
@@ -94,6 +98,36 @@ Seconds: {No of seconds you've been on screen}
 <br>
 
 ***
+
+<br>
+## **Hooks**
+
+Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
+The various hooks are: useState, useEffect, useContext, useReducer, useCallback, useMemo, useRef, useImperativeHandle, useLayoutEffect, useDebugValue. The use of useState hook is as shown below:
+
+### **Code**
+```
+export default function Example() {
+  // Declare a new state variable, which we'll call "count"
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+
+```
+
+### **Output**
+```
+You Cclicked 0 times
+Click me
+```
 
 <br>
 
