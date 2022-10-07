@@ -70,7 +70,7 @@ After learning the working of Kadane's algorithm, let's dive into the implementa
 . global_max will store the resulting answer
 . local_max will get updated after every element, for the local maximums.
 
-![C++](https://carbon.now.sh/?bg=rgba%28153%2C178%2C203%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2523include%2520%253Cbits%252Fstdc%252B%252B.h%253E%250Ausing%2520namespace%2520std%253B%250A%250Aint%2520main%28%29%250A%257B%250A%2520%2520%2520%2520int%2520a%255B%255D%253D%257B2%252C%2520-4%252C%25203%252C%2520-1%252C%25202%257D%253B%250A%2520%2520%2520%2520int%2520local_max%2520%253D%25200%253B%250A%2520%2520%2520%2520int%2520global_max%2520%253D%2520INT_MIN%253B%250A%2520%2520%2520%2520int%2520n%253Dsizeof%28a%29%252Fsizeof%28a%255B0%255D%29%253B%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520for%28i%2520%253D%25200%253B%2520i%2520%253C%2520n%253Bi%252B%252B%29%250A%2509%257B%2520%2520%2520%250A%2509%2520%2520%2520%2520local_max%2520%253D%2520max%28a%255Bi%255D%252C%2520a%255Bi%255D%2520%252B%2520local_max%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2520%2520%2520%2520if%28local_max%2520%253E%2520global_max%29%250A%2509%2520%2520%2520%2520%257B%250A%2509%2520%2520%2520%2520%2520%2520%2520%2520global_max%2520%253D%2520local_max%253B%2520%250A%2509%2520%2520%2520%2520%257D%250A%2509%2520%2520%2520%2520%250A%2509%257D%250A%2509cout%253C%253Cglobal_max%253B%250A%2509return%25200%253B%250A%257D%250A)
+![C++](blob:https://carbon.now.sh/0ccffce3-f6eb-4936-b411-6cd77006d762)
  
 ## Time Complexity
 Time Complexity of Kadane's Algorithm is **O(n)**
