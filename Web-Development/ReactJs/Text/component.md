@@ -45,10 +45,6 @@ Hello Taylor
 <br>
 
 ***
-<br>
-
-
-***
 
 <br>
 
