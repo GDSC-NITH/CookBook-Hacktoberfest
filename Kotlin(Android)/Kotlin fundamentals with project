@@ -1,0 +1,11 @@
+//Let's get some hands on kotlin with kotlin playground will add reoureces too here 
+//kotlin dsl
+buildscript {
+    repositories { mavenCentral() }
+
+    dependencies {
+        val kotlinVersion = "1.7.10"
+        classpath(kotlin("gradle-plugin", version = kotlinVersion))
+        classpath(kotlin("serialization", version = kotlinVersion))
+    }
+}
