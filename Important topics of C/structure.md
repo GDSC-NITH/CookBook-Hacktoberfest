@@ -273,4 +273,4 @@ We will soon be discussing union and other struct related topics in C. Please wr
 
 
 ## RESOURCES
-![GFG](https://www.geeksforgeeks.org/structures-c/)
+[**GFG**](https://www.geeksforgeeks.org/structures-c/)
