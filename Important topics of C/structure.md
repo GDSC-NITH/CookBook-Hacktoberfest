@@ -270,3 +270,7 @@ int main()
 
 
 We will soon be discussing union and other struct related topics in C. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above. 
+
+
+## RESOURCES
+![GFG](https://www.geeksforgeeks.org/structures-c/)
