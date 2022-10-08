@@ -18,7 +18,7 @@ RecyclerView is the ViewGroup that contains the views corresponding to your data
 
 <br>
 
-<img src="Android using Kotlin/assets/image-2.png" alt="RecyclerView Graphical Representation" width="80%" height="80%" hspace="100">
+<img src="/Kotlin(Android)/assets/image-2.png" alt="RecyclerView Graphical Representation" width="80%" height="80%" hspace="100">
 
 <br>
 <!--  image 1  -->
@@ -47,7 +47,7 @@ The **adapter pattern** in software engineering uses a similar concept. This pat
 
 <br>
 
-<img src="Android using Kotlin/assets/image-3.png" alt="RecyclerView work-flow" width="60%" height="60%" hspace="200">
+<img src="/Kotlin(Android)/assets/image-3.png" alt="RecyclerView work-flow" width="60%" height="60%" hspace="200">
 
 <br>
 <!-- image 2 -->
@@ -63,6 +63,6 @@ The **adapter pattern** in software engineering uses a similar concept. This pat
 
 <br>
 
-<img src="Android using Kotlin/assets/image-1.png" alt="RecyclerView Graphical Representation"  width="80%" height="80%" hspace="100">
+<img src="/Kotlin(Android)/assets/image-1.png" alt="RecyclerView Graphical Representation"  width="80%" height="80%" hspace="100">
 
 <br>

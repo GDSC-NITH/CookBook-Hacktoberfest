@@ -11,7 +11,7 @@
 
 <h3 align="center">PRESENTED BY</h3>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/91022462/194231133-2a503fbd-3715-4e9a-9692-e2666537b3c2.png" \>
+<img src="https://user-images.githubusercontent.com/91022462/194231133-2a503fbd-3715-4e9a-9692-e2666537b3c2.png"  width=500 height=400>
 </div>
 
 
@@ -25,7 +25,7 @@ A **cookbook** in the **programming** context is collection of tiny programs tha
 
 <div align="center">
 
-![8147bc69f7ec23dc42e282c7869b9e1e](https://user-images.githubusercontent.com/69354224/194215676-3d71bab0-8a0a-42ee-8f81-8ba972535b32.gif)
+<img src="https://user-images.githubusercontent.com/69354224/194215676-3d71bab0-8a0a-42ee-8f81-8ba972535b32.gif" width=500 height=400>
 
 </div>
 
@@ -37,7 +37,7 @@ Here it does not matters, whether you are a **beginner** or an **expert**. Grab 
 
 <div align="center">
 
-![b5b923a8c784b7610ca3e72872879690](https://user-images.githubusercontent.com/69354224/194224163-f665762d-b9ee-40ca-802c-f176f8e373ed.gif)
+<img src="https://user-images.githubusercontent.com/69354224/194224163-f665762d-b9ee-40ca-802c-f176f8e373ed.gif" width=500 height=400>
 
 </div>
 
@@ -65,7 +65,7 @@ There should be **precise** information as we are not judging you on the basis o
 
 <div align="center">
 
-![be031f8d02ca8cc404d44be54ee2c493](https://user-images.githubusercontent.com/69354224/194224095-342ef116-8537-4b94-ae75-143d70e92e6a.gif)
+<img src="https://user-images.githubusercontent.com/69354224/194224095-342ef116-8537-4b94-ae75-143d70e92e6a.gif" width=500 height=400>
 
 </div>
 
@@ -82,7 +82,7 @@ So what are you waiting for? *Start contributing now !!!*
 
 <div align="center">
 
-![54b5b572a814ce721e1b01adabed5c84](https://user-images.githubusercontent.com/69354224/194224448-561dc77d-2d68-415f-a9bf-345f807202c1.gif)
+<img src="https://user-images.githubusercontent.com/69354224/194224448-561dc77d-2d68-415f-a9bf-345f807202c1.gif" width=500 height=400>
 
 </div>
 
@@ -161,5 +161,5 @@ git push -u origin <your_branch_name>
 ## Contributors
 
 <a href="https://github.com/GDSC-NITH/CookBook-Hacktoberfest/contributors">
-  <img src="https://contrib.rocks/image?repo=GDSC-NITH/CookBook-Hacktoberfest" />
+  <img src="https://contrib.rocks/image?repo=GDSC-NITH/CookBook-Hacktoberfest">
 </a>

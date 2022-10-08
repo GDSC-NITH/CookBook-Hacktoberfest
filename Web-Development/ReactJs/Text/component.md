@@ -170,7 +170,9 @@ root.render(<TodoApp />);
 
 ### **Output**
 <p align="center">
-  <img src="../assets/OutputOne.png" alt="An Application" width="250" height="250">
+  
+  <img alt="An Application" width="250" height="250" src="https://user-images.githubusercontent.com/77006897/194586107-277ddfa9-a386-49c2-a4d9-ee9425a6c8a6.png">
+
 </p>
 <br>
 
@@ -230,7 +232,7 @@ root.render(<MarkdownEditor />);
 
 ### **Output**
 <p align="center">
-  <img src="../assets/OutputTwo.png" alt="An Application" width="250" height="300">
+  <img width="250" height="300" alt="An Application" src="https://user-images.githubusercontent.com/77006897/194585926-659c8815-45dd-4500-b0d3-7f9654db853c.png"> 
 </p>
 
 <br>
