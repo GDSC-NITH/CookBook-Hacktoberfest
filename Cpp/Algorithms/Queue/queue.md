@@ -128,6 +128,15 @@ public:
     }
 };
 ```
+## Complexity
+### Time Complexity:
+O(1) is the Time complexity of EnQueue,DeQueue,Front,isEmpty,size operations. When Queue becomes full ,to make new Queue Array of double size ,O(n) is the Time complexity of EnQueue. 
+
+O(n) is traversing to print each n(number of elements), the time complexity of the Display operation.
+
+### Space Complexity:
+O(n) The space complexity is O(n), where n is the number of elements.
+
 ## **Implementation of Queue using Linked List**
 ```
 #include <iostream>
@@ -139,18 +148,18 @@ class Node
 public:
     T data;
     Node<T> *nextNode;
-    // Node<T>*prevNode;
+    
 
     Node(T data)
     {
         this->data = data;
         nextNode = NULL;
-        // prevNode==NULL;
+        
     }
     Node()
     {
         nextNode = NULL;
-        // prevNode==NULL;
+        
     }
 };
 
@@ -221,6 +230,15 @@ public:
     }
 };
 ```
+## Complexity
+### Time Complexity:
+O(1) is the Time complexity of EnQueue,DeQueue,Front,isEmpty,size operations.
+
+O(n) is traversing to print each n(number of elements), the time complexity of the Display operation.
+
+### Space Complexity:
+O(n) The space complexity is O(n), where n is the number of elements.
+
 ## Resources:
 ### [Programiz](https://www.programiz.com/dsa/queue)
 ### [GFG](https://www.geeksforgeeks.org/queue-data-structure/)
