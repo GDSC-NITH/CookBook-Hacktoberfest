@@ -24,7 +24,7 @@ For each element we will follow these steps:
 global_max is the maximum sum required.
 
 Lets understand the above algorithm using an example.
-
+```
 Let the array be: [2, -4, 3, -1, 2]
 
 at first, local_max = global_max = 0
@@ -39,37 +39,15 @@ when i=2, a[2]= 3: local_max = local_max + (3) = 0+3 = 3 since local_max(= 3) > 
 
 when i=3, a[3]= -1 local_max = local_max + (-1) = 3+(-1) = 2 global_max is still greater than local_max, so no update will be done here, i.e. global_max = 2
 
-when i=4, a[4]= 2 local_max = local_max + 2 = 2+2 = 4 since local_max(= 4) > global_max(= 2), we will set global_max = 4.
+when i=4, a[4]= 2 local_max = local_max + 2 = 2+2 = 4 since local_max(= 4) > global_max(= 2), we will set global_max = 4. 
 
 **Thus we get the maximum subarray sum as 4.**
 
 **Note**: The above algorithm will fail for the case, when there are only negative elements in the array, because our global_max is already set to 0. So, to handle that case we have to modify our algorithm. We will add current element to the previous subarray only if it results in a greater sum, else we will start the new subarray from that element.
+```
 
-## Approach:
-
-Initialize: local_max = 0 global_max = INT_MIN
-
-For each element we will follow these steps:
-
-1. if (a[i] <= local_max + a[i]) local_max = local_max + a[i]
-2. else local_max = a[i]
-3. global_max = max(global_max, local_max)
-global_max is the maximum sum required.
-
-Analysing the above approach, we can write a recursive formulation for Kadane's algorithm.
-
-local_max[i] = max( A[ i ], A[ i ] + local_max[ i-1 ] )
-
-resulting answer will be the maximum of all the values of local_max[i]
-
-Thus we can see that Kadane's algorithm has optimal substructure property, which means that for calculating a maximum subarray ending at a particular position, we have to use the solution of a smaller subproblem (the maximum subarray sum ending at the previous position). Thus we can say that Kadane's Algorithm is a dynamic programming algorithm.
-
-## Code for Kadane's Algorithm
-After learning the working of Kadane's algorithm, let's dive into the implementation of it for C++.
-
-. global_max will store the resulting answer
-. local_max will get updated after every element, for the local maximums.
-
+## C++ Code
+```
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -88,7 +66,8 @@ int maxSubArraySum(int a[], int size)
 	return max_so_far;
 }
 
-// Driver Code
+```
+```
 int main()
 {
 	int a[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
@@ -99,7 +78,7 @@ int main()
 	cout << "Maximum contiguous sum is " << max_sum;
 	return 0;
 }
-
+```
  
 ## Time Complexity
 Time Complexity of Kadane's Algorithm is **O(n)**
