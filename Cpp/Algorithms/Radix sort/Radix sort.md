@@ -88,7 +88,7 @@ Now, the array is sorted in ascending order.
 | **Stable** |`Yes` |
 
 * * * *
-##** Write a program to implement Radix sort in C++.**
+## **Write a program to implement Radix sort in C++.**
 ```
 #include <iostream>  
   
