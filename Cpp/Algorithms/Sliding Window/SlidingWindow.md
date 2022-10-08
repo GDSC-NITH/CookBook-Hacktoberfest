@@ -1,6 +1,6 @@
 # Sliding window
 
-**Sliding window** is a computational technique which aims to reduce the use of nested loop and replace it with a single loop, thereby reducing the time complexity.
+**Sliding window** is a computational technique which aims to reduce the use of nested loop and replace it with a single loop, thereby reducing the time complexity. Generally, it reduces the time complexity of the program from O(N²) to O(N).
 
 <br>
 <hr>
