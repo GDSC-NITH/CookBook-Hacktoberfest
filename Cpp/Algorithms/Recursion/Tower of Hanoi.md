@@ -45,7 +45,7 @@ A Hanoi puzzle involving n disks involves (2^n-1) steps.
 * Disk 1 moved from A to C
 
 ## Alogorithm
-We solve Hanoi Puzzle using concept of recursion. Initially we assume stack of disks in source rod, with aim to move it in Destination rod, which is fulfilled with the help of an auxilary rod.
+We solve Hanoi Puzzle using concept of recursion. A stack of disks is initially placed in the source rod, which is moved to the destination rod with the aid of an auxiliary rod.
 
 Follow the steps below to solve the problem:
 1. Create a function towerOfHanoi where pass the N (current number of disk), src_rod(source), dest_rod(destination), aux_rod(auxilary).
@@ -91,13 +91,11 @@ Move disk 1 from rod B to rod A
 Move disk 2 from rod B to rod C
 Move disk 1 from rod A to rod C
 ````
-
-## Applications
-
-
-## Reference and Useful Articles
-
-
+## References and Useful Articles
+* <a href="https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/">geeksforgeeks</a>
+* <a href="https://www.tutorialspoint.com/data_structures_algorithms/tower_of_hanoi.htm">tutorialspoint</a>
+* <a href="https://www.khanacademy.org/computing/computer-science/algorithms/towers-of-hanoi/a/towers-of-hanoi">khanacademy</a>
+* <a href="https://www.javatpoint.com/daa-tower-of-hanoi">javatpoint</a>
 
 
 
