@@ -1,4 +1,5 @@
 # Button
+
 ## **About DropDown Button Widget**
 
 [Click here to check in official docs of Flutter](https://docs.flutter.dev/development/ui/widgets/material)
@@ -7,15 +8,9 @@ A drop-down button is used to create a nice overlay on the screen that allows th
 
 Flutter provides a DropdownButton widget to implement a drop-down list. We can place it anywhere in our app.
 
-<br>
-
 ***
 
-<br>
-
 ## **DropDown Button Widget Constructor**
-
-<br>
 
 ```Dart
 (new) DropdownButton<ListItem> DropdownButton({
@@ -47,18 +42,12 @@ Flutter provides a DropdownButton widget to implement a drop-down list. We can p
   BorderRadius? borderRadius,
 })
 ```
-package:flutter/material.dart
 
-<br>
+package:flutter/material.dart
 
 ***
 
-<br>
-
-## **Essential Properties Of DropDown Button Widget** 
-
-<br>
-
+## **Essential Properties Of DropDown Button Widget**
 
 **Alignment:** Defines how the icon is positioned within the DropdownButton.
 
@@ -116,26 +105,15 @@ package:flutter/material.dart
 
 **Value:** The currently selected value for this button.
 
-<br>
-
 ***
-<br>
 
 ## **Important points to be noted:**
 
-<br>
-
 * The onChanged callback should update a state variable that defines the dropdown's value. It should also call **State.setState** to rebuild the dropdown with the new value.
 
-<br>
-
 ***
-<br>
-
 
 ## **DropDown Button**
-
-<br>
 
   | Attributes | Descriptions |
   | ---------- | ------------ |
@@ -165,14 +143,9 @@ package:flutter/material.dart
   | alignment = AlignmentDirectional.centerStart | Defines how the hint or the selected item is positioned within the button. |
   | borderRadius | Defines the corner radii of the menu's rounded rectangle shape. |
 
-
 ***
 
-<br>
-
 ## **SAMPLE**
-
-<br>
 
 ### **Code**
 
@@ -260,24 +233,15 @@ class ListItem {
 }  
  
 ```
-<br>
 
 ### **Output**
-***
-<br>
-
-<p align="center">
-  <img src="https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons6.png" alt="TextButton Widget Output" width="250" height="520">
-</p><p align="center">
-  <img src="https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons7.png" alt="TextButton Widget Output" width="250" height="520">
-</p>
-<br>
 
 ***
-<br>
+![DropDown Button Widget Output](https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons6.png)
+![DropDown Button Widget Output](https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons7.png)
+
+***
 
 ## **Resources:**
-
-<br>
 
 * [**JAVAPOINT**](https://www.javatpoint.com/flutter-buttons)
