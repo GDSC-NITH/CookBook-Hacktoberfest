@@ -43,3 +43,66 @@ A Hanoi puzzle involving n disks involves (2^n-1) steps.
 * Disk 1 moved from B to A
 * Disk 2 moved from B to C
 * Disk 1 moved from A to C
+
+## Alogorithm
+We solve Hanoi Puzzle using concept of recursion. Initially we assume stack of disks in source rod, with aim to move it in Destination rod, which is fulfilled with the help of an auxilary rod.
+
+Follow the steps below to solve the problem:
+1. Create a function towerOfHanoi where pass the N (current number of disk), src_rod(source), dest_rod(destination), aux_rod(auxilary).
+2. Make a function call for N – 1 th disk.
+3. Then print the current the disk along with from_rod and to_rod
+4. Again make a function call for N – 1 th disk.
+
+## Code Snippet (in Cpp)
+````
+#include <bits/stdc++.h>
+using namespace std;
+ 
+void towerOfHanoi(int n, char src_rod, char dest_rod, char aux_rod)
+{
+    if (n == 0) 
+    {
+        return;
+    }
+    
+    towerOfHanoi(n - 1, src_rod, aux_rod, dest_rod);
+    cout << "Move disk " << n << " from rod " << src_rod
+         << " to rod " << dest_rod << endl;
+    towerOfHanoi(n - 1, aux_rod, dest_rod, src_rod);
+}
+ 
+// Driver code
+int main()
+{
+    int N = 3;
+    // A, B and C are names of rods
+    towerOfHanoi(N, 'A', 'C', 'B');
+    return 0;
+}
+ 
+````
+## Output
+````
+Move disk 1 from rod A to rod C
+Move disk 2 from rod A to rod B
+Move disk 1 from rod C to rod B
+Move disk 3 from rod A to rod C
+Move disk 1 from rod B to rod A
+Move disk 2 from rod B to rod C
+Move disk 1 from rod A to rod C
+````
+
+## Applications
+
+
+## Reference and Useful Articles
+
+
+
+
+
+
+
+
+
+
