@@ -8,7 +8,7 @@
 3. So, To find the Topological sorting for a graph, we just have to find in-degrees of each vertex and order the nodes from least in-degree to the highest.
 
 
-
+```
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -51,7 +51,9 @@ int main(){
    " Now, node has been stored in topological order  in queue pq."
 
 }
+```
 
+```
 INPUT 
 n = 6
 m = 6
@@ -61,6 +63,8 @@ m = 6
 (4,1)
 (2,3)
 (3,1)
-
+```
+```
 OUTPUT
 5 4 2 3 1 0
+```
