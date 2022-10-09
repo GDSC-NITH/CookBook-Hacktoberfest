@@ -90,3 +90,62 @@ async               except              lambda              with
 await               finally             nonlocal            yield
 break               for                 not
 ```
+
+## Conditional Statements
+
+### 1. If
+```c
+a = 33
+b = 200
+if b > a:
+  print("b is greater than a") # Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. 
+```
+### 2. Elif
+
+```c
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+```
+
+### 3. Else
+
+```c
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+```
+
+## Loops
+
+### 1. While
+```c
+while (condition):
+  #code
+```
+### 2. For
+```c
+for iterator_var in sequence:
+    #code
+```
+
+## Functions
+
+A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.
+
+```c
+# Creating a function: In Python a function is defined using the def keyword 
+def my_function():
+  #code
+
+# Calling a Function: To call a function, use the function name followed by parenthesis
+my_function()
+```
