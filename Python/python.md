@@ -56,3 +56,11 @@ import array as arr
 
 a = arr.array('i', [1, 2, 3]) # 'i' stands for int
 ```
+## String
+In Python, Strings are arrays of bytes representing Unicode characters.
+
+### Example:
+```c
+ s="abcde" # or 'abcde'
+print(s)     //prints s
+```
