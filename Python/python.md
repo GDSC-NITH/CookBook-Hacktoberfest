@@ -20,3 +20,14 @@ Python is a high-level general-purpose programming language. His design philosop
 |Set Types | set, frozenset |
 |Boolean Type | bool |
 |None Type | NoneType |
+
+
+## Variables
+In Python language, the data type of the variable will be automatically determined from the value assigned, we need not define it explicitly.
+```c
+ variable-name = value;
+```
+```c
+value = 10; // declaring a variable and assigning value 10 to it which automatically gets stored as int
+grade = 'A'; // declaring a variable and assigning value A to it which automatically gets stored as char
+```
