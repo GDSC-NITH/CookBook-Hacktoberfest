@@ -25,9 +25,17 @@ Python is a high-level general-purpose programming language. His design philosop
 ## Variables
 In Python language, the data type of the variable will be automatically determined from the value assigned, we need not define it explicitly.
 ```c
- variable-name = value;
+ variable-name = value
 ```
 ```c
-value = 10; // declaring a variable and assigning value 10 to it which automatically gets stored as int
-grade = 'A'; // declaring a variable and assigning value A to it which automatically gets stored as char
+value = 10 // declaring a variable and assigning value 10 to it which automatically gets stored as int
+grade = 'A' // declaring a variable and assigning value A to it which automatically gets stored as string
+```
+### Casting
+
+If you want to specify the data type of a variable, this can be done with casting.
+```c
+ x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0
 ```
