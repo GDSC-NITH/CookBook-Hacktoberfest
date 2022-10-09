@@ -34,13 +34,13 @@ Now, let's see the working of Bubble sort Algorithm.
 
 To understand the working of bubble sort algorithm, let's take an unsorted array. We are taking a short and accurate array, as we know the complexity of bubble sort is O(n2).
 
-Let the elements of array are -
+Let the elements of the array be -
 
 ![bubble-sort-algorithm1](https://user-images.githubusercontent.com/69354224/194344310-8d7a668c-7988-4438-b7d0-9e895b8b983a.png)
 
 **First Pass**
 
-Sorting will start from the initial two elements. Let compare them to check which is greater.
+Sorting will start from the initial two elements. Let's compare them to check which is greater.
 
 ![bubble-sort-algorithm2](https://user-images.githubusercontent.com/69354224/194344371-6c79ae67-12ef-488a-a216-00e07b4b3b80.png)
 
@@ -48,7 +48,7 @@ Here, 32 is greater than 13 (32 > 13), so it is already sorted. Now, compare 32 
 
 ![bubble-sort-algorithm3](https://user-images.githubusercontent.com/69354224/194344436-ef9b3d63-a673-4296-bcc9-86c390b91725.png)
 
-Here, 26 is smaller than 36. So, swapping is required. After swapping new array will look like -
+Here, 26 is smaller than 36. So, swapping is required. After swapping new array will look like this-
 
 ![bubble-sort-algorithm4](https://user-images.githubusercontent.com/69354224/194344515-9ce9aa92-678c-4b7b-97bb-a0d51c443a0a.png)
 
@@ -58,15 +58,15 @@ Now, compare 32 and 35.
 
 Here, 35 is greater than 32. So, there is no swapping required as they are already sorted.
 
-Now, the comparison will be in between 35 and 10.
+Now, the comparison will be between 35 and 10.
 
 ![bubble-sort-algorithm6](https://user-images.githubusercontent.com/69354224/194344618-89aa7054-7602-48b4-89e0-b49339fce21c.png)
 
-Here, 10 is smaller than 35 that are not sorted. So, swapping is required. Now, we reach at the end of the array. After first pass, the array will be -
+Here, 10 is smaller than 35 that are not sorted. So, swapping is required. Now, we reach the end of the array. After the first pass, the array will be -
 
 ![bubble-sort-algorithm7](https://user-images.githubusercontent.com/69354224/194344679-eb770e55-f240-44e0-a721-afa3153f020c.png)
 
-Now, move to the second iteration.
+Now, move to the the second iteration.
 
 **Second Pass**
 
@@ -82,7 +82,7 @@ Now, move to the third iteration.
 
 **Third Pass**
 
-The same process will be followed for third iteration.
+The same process will be followed for the third iteration.
 
 ![bubble-sort-algorithm10](https://user-images.githubusercontent.com/69354224/194344920-00266592-414b-4c9d-a669-f67340f88f96.png)
 
@@ -127,7 +127,7 @@ Hence, there is no swapping required, so the array is completely sorted.
     | O(1) | YES |
 
     * The space complexity of bubble sort is O(1). It is because, in bubble sort, an extra variable is required for swapping.
-    * The space complexity of optimized bubble sort is O(2). It is because two extra variables are required in optimized bubble sort.
+    * The space complexity of the optimized bubble sort is O(2). It is because two extra variables are required in optimized bubble sort.
 
 <br>
 
@@ -140,9 +140,9 @@ Hence, there is no swapping required, so the array is completely sorted.
 Bubble short is majorly used where -
 
 * complexity does not matter
-* simple and shortcode is preferred
+* simple and shortcode are preferred
 
-Also, this algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
+Also, this algorithm is unsuitable for large data sets as its average and worst-case time complexity is quite high.
 
 <br>
 
