@@ -2,8 +2,8 @@
 
 Android TimePicker is a user interface control for selecting the time in either 24-hour format or AM/PM mode. It is used to ensure that users pick the valid time for the day in our application.
 
-In android, TimePicker is available in two modes 
-1 Clock mode 
+In android, TimePicker is available in two modes <br/>
+1 Clock mode <br/>
 2 Spinner mode.
 
 ## #XML Attributes for Time Picker:
@@ -47,7 +47,7 @@ In android, TimePicker is available in two modes
 
 # Accessing the TimePicker in Kotlin file(MainActivity.kt):
 
-Let's now access the TimePicker we created in the XML file and set the selected time to a textView and we will also display the selected time as a toast message.
+Now let's access the TimePickerthat we have just created in the XML file and set the selected time in our app to a textView. We will also display the selected time as a toast message.
 ### CODE:
 ``` Kotlin
 package com.app.timepicker
