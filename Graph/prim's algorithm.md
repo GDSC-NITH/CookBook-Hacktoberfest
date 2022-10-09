@@ -5,8 +5,8 @@
 
 Prim's algorithm is a minimum spanning tree algorithm that takes a graph as input and finds the subset of the edges of that graph which
 
--> form a tree that includes every vertex
--> has the minimum sum of weights among all the trees that can be formed from the graph
+* form a tree that includes every vertex
+* has the minimum sum of weights among all the trees that can be formed from the graph
 
 
 **Working**
@@ -20,7 +20,10 @@ Initialize the minimum spanning tree with a vertex chosen at random.
 Find all the edges that connect the tree to new vertices, find the minimum and add it to the tree
 Keep repeating step 2 until we get a minimum spanning tree
 
-#include<bits/stdc++.h>
+
+
+
+```#include<bits/stdc++.h>
 using namespace std;
 const int N=1e5;
 #define vi vector<int>
@@ -72,4 +75,5 @@ int main()
 	}
 	cout<<cost<<endl;
 }
+```
 
