@@ -64,3 +64,27 @@ In Python, Strings are arrays of bytes representing Unicode characters.
 s="abcde" # or 'abcde'
 print(s)     //prints s
 ```
+## Operators
+
+| Operator type | Description|
+|----|-----|
+| Arithmetic Operator|+ , - , * , / , //, % , ** |
+| comparision Operator| < , > , <= , >=, != , == |
+| Bitwise Operator| &  , | , ^ , >> , << , ~ |
+| Logical Operator| and , or , not |
+| Assignment Operator| = , += , -= , *= , /= , %=, //=, ** = , &=, ^=, >>== , <<== |
+| Identity Operator| is , is not |
+| Membership Operator| in , not in |
+
+
+## Keywords(reserved words)
+
+```c
+False  	await	   else	   import	   pass
+None   	break  	 except	 in	       raise
+True	   class	   finally	is	       return
+and	    continue	for	    lambda   	try
+as	     def	     from	   nonlocal	 while
+assert 	del	     global 	not	      with
+async	  elif	    if	     or	       yield
+```
