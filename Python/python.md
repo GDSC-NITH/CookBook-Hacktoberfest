@@ -46,3 +46,13 @@ z = float(3)  # z will be 3.0
 * First letter should be either a letter or an underscore(`_`).
 * Case sensitive
 * Keywords cannot be used as variable names
+
+## Arrays
+Array can be handled in Python by a module named array. They can be useful when we have to manipulate only a specific data type values. A user can treat lists as arrays. However, user cannot constraint the type of elements stored in a list. If you create arrays using the array module, all elements of the array must be of the same type. 
+### Creating a Array
+Array in Python can be created by importing array module. array(data_type, value_list) is used to create an array with data type and value list specified in its arguments. 
+```c
+import array as arr
+
+a = arr.array('i', [1, 2, 3]) # 'i' stands for int
+```
