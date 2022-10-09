@@ -80,11 +80,13 @@ print(s)     //prints s
 ## Keywords(reserved words)
 
 ```c
-False 	await 	else 	import 	pass
-None 	break	 except 	in 	raise
-True 	class	 finally	 is	 return
-and	 continue  for  lambda  try
-as	 def	 from	 nonlocal  while
-assert 	del 	 global	not 	with
-async	 elif	 if	 or	 yield
+False               class               from                or
+None                continue            global              pass
+True                def                 if                  raise
+and                 del                 import              return
+as                  elif                in                  try
+assert              else                is                  while
+async               except              lambda              with
+await               finally             nonlocal            yield
+break               for                 not
 ```
