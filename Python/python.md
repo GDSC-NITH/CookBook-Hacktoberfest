@@ -61,6 +61,6 @@ In Python, Strings are arrays of bytes representing Unicode characters.
 
 ### Example:
 ```c
- s="abcde" # or 'abcde'
+s="abcde" # or 'abcde'
 print(s)     //prints s
 ```
