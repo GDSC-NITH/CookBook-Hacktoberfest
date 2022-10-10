@@ -48,7 +48,7 @@ int main()
 	return 0}
 ```
 
-* Output
+### Output
 ![image](https://user-images.githubusercontent.com/104310254/194915423-1ee73b74-9b82-4faa-91e0-9a6fcc1d7b60.png)
 
 ### Understanding the above code pictorially
