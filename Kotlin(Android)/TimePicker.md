@@ -47,7 +47,7 @@ In android, TimePicker is available in two modes <br/>
 
 # Accessing the TimePicker in Kotlin file(MainActivity.kt):
 
-Now let's access the TimePickerthat we have just created in the XML file and set the selected time in our app to a textView. We will also display the selected time as a toast message.
+Now let's access the TimePicker that we have just created in the XML file and set the selected time in our app to a textView. We will also display the selected time as a toast message.
 ### CODE:
 ``` Kotlin
 package com.app.timepicker
