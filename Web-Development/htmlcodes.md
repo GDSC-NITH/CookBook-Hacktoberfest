@@ -14,18 +14,18 @@ But there are also some rare tags which can be very usefull in devlopment of any
 |fieldset| This tag draws a box around the elements within the fieldset. |
 |details|The details tag is used to provide or hide more information about the content on a website.|
 ### Breif explanation of above tags
-### 1. <cite>
-All of us will be familiar with the <blockquote> tag, but did you know about <blockquote>'s little brother <cite>? <cite> allows you to define the text inside the element as a reference. Typically, the browser will render the text inside the <cite> tag in italics, but this can be changed with a touch of CSS.
+### 1. cite
+All of us will be familiar with the blockquote tag, but did you know about blockquote's little brother cite? cite allows you to define the text inside the element as a reference. Typically, the browser will render the text inside the cite tag in italics, but this can be changed with a touch of CSS.
 
-The <cite> tag is really useful for citing bibliographic and other site references. Here's an example of how to use the cite tag in a paragraph:
+The cite tag is really useful for citing bibliographic and other site references. Here's an example of how to use the cite tag in a paragraph:
 ```
-<p>Github <cite>is a distributed version-control platform</cite> where users can collaborate on or adopt open source code projects,fork code , share ideas and more</p>
+<p>Github <citeis a distributed version-control platform</cite> where users can collaborate on or adopt open source code projects,fork code , share ideas and more</p>
 ```
 ### output:
 ![image](https://user-images.githubusercontent.com/97960380/194769564-b3900eae-288a-464d-bd15-38aaaa53769f.png)
 
-### 2. <optgroup>
-The <optgroup> tag is a great way to add a little definition between groups of options inside a select box. This allows the select list to visually separate the items.
+### 2. optgroup
+The optgroup tag is a great way to add a little definition between groups of options inside a select box. This allows the select list to visually separate the items.
 
 If you needed to group movie listings by time, for example, then it would look like this:
 ```
@@ -44,20 +44,20 @@ If you needed to group movie listings by time, for example, then it would look l
 ```
 ### Output:
 ![image](https://user-images.githubusercontent.com/97960380/194769721-6311f274-8241-42ae-b294-5c1a5f03c1f0.png)
-### 3. <acronym>
-The <acronym> tag is a way to define or further explain a group of words. When you hover over text that has the <acronym> tag used, a box appears below with the text from the title tag. For example:
+### 3. acronym
+The acronym tag is a way to define or further explain a group of words. When you hover over text that has the <acronym> tag used, a box appears below with the text from the title tag. For example:
 ```
 The microblogging site <code><acronym title="Founded in 2006"></code> Twitter</acronym> has recently struggled with downtimes.
 ```
-### 4. <address>
-The <address> tag is quite an obscure little tag, but that doesn't mean it isn't useful! As the name implies, <address> allows you to semantically mark up addresses in HTML. The nifty little tag will also italicize all of the data within the brackets, though the style can easily be changed through simple CSS.
+### 4. address
+The address tag is quite an obscure little tag, but that doesn't mean it isn't useful! As the name implies, <address> allows you to semantically mark up addresses in HTML. The nifty little tag will also italicize all of the data within the brackets, though the style can easily be changed through simple CSS.
 ```
 <address>Glen Stansberry
 1234 Web Dev Lane
 Anywhere, USA
 </address>
 ```
-### 5. <label>
+### 5. label
 Form elements seem the easiest to forget when marking up a document. Of the form elements, one of the most forgotten is the <label> tag. Not only is it a quick way to note the label's text, but the <label> tag can also pass a "for" attribute to specify which element is to be given the label. These <label> tags are great for styling, and they also allow you to make the caption clickable for the associated element.
 ```
 <label for="username">Username</label>
@@ -65,7 +65,7 @@ Form elements seem the easiest to forget when marking up a document. Of the form
 ```
 ### Output
 ![image](https://user-images.githubusercontent.com/97960380/194840662-b841c3ea-b3b9-4e9b-aca6-6466c21a74fc.png)
-### 6. <fieldset>
+### 6. fieldset
 Fieldset is a nifty little attribute that you can add to your forms to logically group form elements. Once applied, the <fieldset> tag draws a box around the elements within the fieldset. Bonus points for adding a <label> tag within the fieldset to define the title of the group.
 ```
 <form><fieldset>
@@ -79,7 +79,7 @@ No <input name="no" type="radio" value="no" />
 ### Output :
 ![image](https://user-images.githubusercontent.com/97960380/194840972-eaf394c3-0b50-4c54-8ccb-1165e0a862e6.png)
 
-### 7.<details>
+### 7. Details
 The details tag is used to provide or hide more information about the content on a website. It is used to create an interactive widget that the user can open or close. The content of the details tag is visible when opening the set attributes.
 
 The details element is combined with the <summary> tag to create a headline that can be clicked to open or close the information you wish to learn more about.
