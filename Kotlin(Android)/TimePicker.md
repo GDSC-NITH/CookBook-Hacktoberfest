@@ -30,7 +30,7 @@ In android, TimePicker is available in two modes <br/>
 ### Output:
 ![image](https://user-images.githubusercontent.com/98453503/194740053-9308440d-6127-4ae0-a767-ff15f57a282c.png)
 
-## #DatePicker with Spinner mode
+## #TimePicker with Spinner mode
 ### XML Code
 ```XML
 <TimePicker
