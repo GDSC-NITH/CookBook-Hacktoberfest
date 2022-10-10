@@ -6,13 +6,13 @@ But there are also some rare tags which can be very usefull in devlopment of any
 ### Some Rare Tags in HTML
 | Tag  | Function|
 |:----------|:------------------------|
-|<cite>|It allows you to define the text inside the element as a reference.|
-|<optgroup>|This tag is a great way to add a little definition between groups of options inside a select box.|
-|<acronym>|This tag is a way to define or further explain a group of words|
-|<address>|It allows you to semantically mark up addresses in HTML.|
-|<label>| These tags are great for styling, and also allow you to make the caption clickable for the associated element.|
-|<fieldset>| This tag draws a box around the elements within the fieldset. |
-|<details>|The details tag is used to provide or hide more information about the content on a website.|
+|cite|It allows you to define the text inside the element as a reference.|
+|optgroup|This tag is a great way to add a little definition between groups of options inside a select box.|
+|acronym|This tag is a way to define or further explain a group of words|
+|address|It allows you to semantically mark up addresses in HTML.|
+|label| These tags are great for styling, and also allow you to make the caption clickable for the associated element.|
+|fieldset| This tag draws a box around the elements within the fieldset. |
+|details|The details tag is used to provide or hide more information about the content on a website.|
 ### Breif explanation of above tags
 ### 1. <cite>
 All of us will be familiar with the <blockquote> tag, but did you know about <blockquote>'s little brother <cite>? <cite> allows you to define the text inside the element as a reference. Typically, the browser will render the text inside the <cite> tag in italics, but this can be changed with a touch of CSS.
