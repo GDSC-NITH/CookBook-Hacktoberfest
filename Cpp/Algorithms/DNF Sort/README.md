@@ -31,6 +31,61 @@ Similarly, used to arrange an array so that three elements are placed together.
 * If array [mid] = 2, then we swap array [mid] with array [high] and decrement the high pointer once.
 <img src="https://user-images.githubusercontent.com/77115663/194800242-8bb71b30-6b42-4244-ab7c-50f34ab82493.png">
 
+<h2> Examples </h2>
+**Input:** {0, 1, 2, 0, 1, 2}
+**Output:** {0, 0, 1, 1, 2, 2}
+
+**Input:** {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1}
+**Output:** {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
+
+<h2> Code Snippet (in Cpp) </h2>
+
+````
+
+#include<iostream>
+using namespace std;
+
+void dnf_sort(int arr[], int n)
+{
+    int low=0;
+    int mid=0;
+    int high=n-1;
+
+    while(low<=mid)
+    {
+        if(arr[mid]==0) //Case 1
+        {
+            swap(arr[low],arr[mid]);
+            low++;
+            mid++;
+        }
+        else if(arr[mid]==1) //Case 2
+        {
+            mid++;
+        }
+        else  //Case 3
+        {
+            swap(arr[mid],arr[high]);
+            high--;
+        }
+    }
+}
+
+// Driver Function
+
+int main()
+{
+    int arr[] = { 0,1,2,2,1,0 };
+    dnf_sort(arr, 6);
+
+    for(int i=0; i<6; i++)
+    {
+        cout<<arr[i]<<endl;
+    }
+    
+    return 0;
+}
+````
 
 
 
