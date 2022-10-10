@@ -1,19 +1,14 @@
 # Button
+
 ## **About Icon Button Widget**
 
 [Click here to check in official docs of Flutter](https://docs.flutter.dev/development/ui/widgets/material)
 
 An IconButton is a picture printed on the Material widget. It is a useful widget that gives the Flutter UI a material design feel. We can also customize the look and feel of this button. In simple terms, it is an icon that reacts when the user will touch it.
 
-<br>
-
 ***
 
-<br>
-
 ## **Icon Button Widget Constructor**
-
-<br>
 
 ```Dart
 (new) IconButton IconButton({
@@ -42,22 +37,17 @@ An IconButton is a picture printed on the Material widget. It is a useful widget
   Widget icon,
 })
 ```
-package:flutter/material.dart
 
-<br>
+package:flutter/material.dart
 
 ***
 
-<br>
-
-## **Essential Properties Of Icon Button Widget** 
-
-<br>
+## **Essential Properties Of Icon Button Widget**
 
 **Alignment:**
 Defines how the icon is positioned within the IconButton.
 
-**Autofocus:** 
+**Autofocus:**
 True if this widget will be selected as the initial focus when no other node in its scope is currently focused.
 
 **Color:**
@@ -123,28 +113,17 @@ Text that describes the action that will occur when the button is pressed.
 **VisualDensity:**
 Defines how compact the icon button's layout will be.
 
-<br>
-
 ***
-<br>
 
 ## **Important points to be noted:**
-
-<br>
 
 * The hit region of an icon button will, if possible, be at least **kMinInteractiveDimension** pixels in size, regardless of the actual iconSize, to satisfy the touch target size requirements in the Material Design specification. The alignment controls how the icon itself is positioned within the hit region.
 
 * If the onPressed callback is **null**, then the button will be disabled and will not react to touch.
 
-<br>
-
 ***
-<br>
-
 
 ## **IconButton**
-
-<br>
 
   | Attributes | Descriptions |
   | ---------- | ------------ |
@@ -173,11 +152,7 @@ Defines how compact the icon button's layout will be.
 
 ***
 
-<br>
-
 ## **SAMPLE**
-
-<br>
 
 ### **Code**
 
@@ -237,22 +212,14 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 }  
  
 ```
-<br>
 
 ### **Output**
-***
-<br>
-
-<p align="center">
-  <img src="https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons8.png" alt="TextButton Widget Output" width="250" height="520">
-</p>
-<br>
 
 ***
-<br>
+![Icon Button Widget Output](https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons8.png)
+
+***
 
 ## **Resources:**
-
-<br>
 
 * [**JAVAPOINT**](https://www.javatpoint.com/flutter-buttons)
