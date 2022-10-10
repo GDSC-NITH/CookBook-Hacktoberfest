@@ -32,11 +32,12 @@ Similarly, used to arrange an array so that three elements are placed together.
 <img src="https://user-images.githubusercontent.com/77115663/194800242-8bb71b30-6b42-4244-ab7c-50f34ab82493.png">
 
 <h2> Examples </h2>
-**Input:** {0, 1, 2, 0, 1, 2}
-**Output:** {0, 0, 1, 1, 2, 2}
 
-**Input:** {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1}
-**Output:** {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
+**Input:** {0, 1, 2, 0, 1, 2} <br>
+**Output:** {0, 0, 1, 1, 2, 2} <br>
+
+**Input:** {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1} <br>
+**Output:** {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2} <br>
 
 <h2> Code Snippet (in Cpp) </h2>
 
@@ -86,6 +87,22 @@ int main()
     return 0;
 }
 ````
+
+<h2> Output </h2>
+
+````
+0,0,1,1,2,2
+
+````
+
+<h2> References and Useful Articles </h2>
+
+* <a href="https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/">geeksforgeeks</a>
+* <a href="https://www.tutorialspoint.com/sort-an-arrays-of-0-s-1-s-and-2-s-using-cplusplus">tutorialspoint</a>
+* <a href="https://www.javatpoint.com/daa-dutch-national-flag">javatpoint</a>
+* <a href="https://www.educative.io/answers/the-dutch-national-flag-problem-in-cpp">educative</a>
+* <a href="https://leetcode.com/problems/sort-colors/">leetcode</a>
+
 
 
 
