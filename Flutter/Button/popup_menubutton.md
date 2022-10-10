@@ -13,7 +13,9 @@ If both are null, then a standard overflow icon is created (depending on the pla
 
 <br>
 
-***
+
+<p align="center">
+  <img src="https://miro.medium.com/max/1400/0*gKDtVyHyd4YsUdME" alt="popup menu Widget Output" width="600" height="520">
 
 <br>
 
@@ -56,47 +58,68 @@ package:flutter/material.dart
 
 <br>
 
-**child:** If provided, child is the widget used for this button and the button will utilize an InkWell for taps.
+### **child:** 
+If provided, child is the widget used for this button and the button will utilize an InkWell for taps.
 
-**color:** If provided, the background color used for the menu.
+### **color:** 
+If provided, the background color used for the menu.
 
-**constraints:** Optional size constraints for the menu.
+### **constraints:** 
+Optional size constraints for the menu.
 
-**elevation:** The z-coordinate at which to place the menu when open. This controls the size of the shadow below the menu.
+### **elevation:** 
+The z-coordinate at which to place the menu when open. This controls the size of the shadow below the menu.
 
-**enabled:** Whether this popup menu button is interactive.
+### **enabled:** 
+Whether this popup menu button is interactive.
 
-**enableFeedback:** Whether detected gestures should provide acoustic and/or haptic feedback.
+### **enableFeedback:** 
+Whether detected gestures should provide acoustic and/or haptic feedback.
 
-**hashCode:** The hash code for this object.
+### **hashCode:** 
+The hash code for this object.
 
-**icon:** If provided, the icon is used for this button and the button will behave like an IconButton.
+### **icon:** 
+If provided, the icon is used for this button and the button will behave like an IconButton.
 
-**iconSize:** If provided, the size of the Icon.
+### **iconSize:** 
+If provided, the size of the Icon.
 
-**initialValue:** The value of the menu item, if any, that should be highlighted when the menu opens.
+### **initialValue:** 
+The value of the menu item, if any, that should be highlighted when the menu opens.
 
-**itemBuilder:** Called when the button is pressed to create the items to show in the menu.
+### **itemBuilder:** 
+Called when the button is pressed to create the items to show in the menu.
 
-**key:** Controls how one widget replaces another widget in the tree.
+### **key:** 
+Controls how one widget replaces another widget in the tree.
 
-**offset:** The offset is applied relative to the initial position set by the position.
+### **offset:** 
+The offset is applied relative to the initial position set by the position.
 
-**onCanceled:** Called when the user dismisses the popup menu without selecting an item.
+### **onCanceled:** 
+Called when the user dismisses the popup menu without selecting an item.
 
-**onSelected:** Called when the user selects a value from the popup menu created by this button.
+### **onSelected:** 
+Called when the user selects a value from the popup menu created by this button.
 
-**padding:** Matches IconButton's 8 dps padding by default. In some cases, notably where this button appears as the trailing element of a list item, it's useful to be able to set the padding to zero.
+### **padding:** 
+Matches IconButton's 8 dps padding by default. In some cases, notably where this button appears as the trailing element of a list item, it's useful to be able to set the padding to zero.
 
-**position:** Whether the popup menu is positioned over or under the popup menu button.
+### **position:** 
+Whether the popup menu is positioned over or under the popup menu button.
 
-**runtime Type:** A representation of the runtime type of the object.
+### **runtime Type:**
+A representation of the runtime type of the object.
 
-**shape:** If provided, the shape used for the menu.
+### **shape:** 
+If provided, the shape used for the menu.
 
-**splashRadius:** The splash radius.
+### **splashRadius:** 
+The splash radius.
 
-**tooltip:** Text that describes the action that will occur when the button is pressed.
+### **tooltip:** 
+Text that describes the action that will occur when the button is pressed.
 
 <br>
 
@@ -108,27 +131,36 @@ package:flutter/material.dart
 
 <br>
 
-**createElement():** Creates a StatefulElement to manage this widget's location in the tree.
+### **createElement():** 
+Creates a StatefulElement to manage this widget's location in the tree.
 
-**createState():** Creates the mutable state for this widget at a given location in the tree.
+### **createState():** 
+Creates the mutable state for this widget at a given location in the tree.
 
-**debugDescribeChildren():** Returns a list of DiagnosticsNode objects describing this node's children.
+### **debugDescribeChildren():** 
+Returns a list of DiagnosticsNode objects describing this node's children.
 
-**debugFillProperties(DiagnosticPropertiesBuilder properties):** Add additional properties associated with the node.
+### **debugFillProperties():** 
+Add additional properties associated with the node.
 
 
-**noSuchMethod(Invocation invocation):** Invoked when a non-existent method or property is accessed.
+### **noSuchMethod(Invocation invocation):** 
+Invoked when a non-existent method or property is accessed.
 
-**toDiagnosticsNode({String? name, DiagnosticsTreeStyle? style}):** 
+### **toDiagnosticsNode():** 
 Returns a debug representation of the object that is used by debugging tools and by DiagnosticsNode.toStringDeep.
 
-**toString({DiagnosticLevel minLevel = DiagnosticLevel.info}):** A string representation of this object.
+### **toString():** 
+A string representation of this object.
 
-**toStringDeep({String prefixLineOne = '', String? prefixOtherLines, DiagnosticLevel minLevel = DiagnosticLevel.debug}):** Returns a string representation of this node and its descendants.
+### **toStringDeep():** 
+Returns a string representation of this node and its descendants.
 
-**toStringShallow({String joiner = ', ', DiagnosticLevel minLevel = DiagnosticLevel.debug}):** Returns a one-line detailed description of the object.
+### **toStringShallow():** 
+Returns a one-line detailed description of the object.
 
-**toStringShort():** A short, textual description of this widget.
+### **toStringShort():** 
+A short, textual description of this widget.
 
 <br>
 
