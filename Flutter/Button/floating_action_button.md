@@ -1,4 +1,5 @@
 # Button
+
 ## **About Floating Action Button Widget**
 
 [Click here to check in official docs of Flutter](https://docs.flutter.dev/development/ui/widgets/material)
@@ -9,15 +10,9 @@ FloatingActionButton: It creates a simple circular floating button with a child 
 
 FloatingActionButton.extended: It creates a wide floating button along with an icon and a label inside it. **Instead of a child, it uses labels and icon parameters**.
 
-<br>
-
 ***
 
-<br>
-
 ## **Floating Action Button Widget Constructor**
-
-<br>
 
 ```Dart
 FloatingActionButton({
@@ -47,17 +42,12 @@ FloatingActionButton({
   bool? enableFeedback,
 })
 ```
-package:flutter/material.dart
 
-<br>
+package:flutter/material.dart
 
 ***
 
-<br>
-
-## **Essential Properties of Floating Action Button Widget** 
-
-<br>
+## **Essential Properties of Floating Action Button Widget**
 
 1. **Autofocus:** True if this widget will be selected as the initial focus when no other node in its scope is currently focused.
 
@@ -95,28 +85,17 @@ package:flutter/material.dart
 
 18. **Tooltip:** Text that describes the action that will occur when the button is pressed.
 
-<br>
-
 ***
-<br>
 
 ## **Important points to be noted:**
 
-<br>
-
-* Use at most a single floating action button per screen. Floating action buttons should be used for positive actions such as **"create", "share", or "navigate"**. 
+* Use at most a single floating action button per screen. Floating action buttons should be used for positive actions such as **"create", "share", or "navigate"**.
 
 * If the onPressed callback is **null**, then the button will be disabled and will not react to touch.
 
-<br>
-
 ***
-<br>
-
 
 ## **IconButton**
-
-<br>
 
   | Attributes | Descriptions |
   | ---------- | ------------ |
@@ -145,11 +124,7 @@ package:flutter/material.dart
 
 ***
 
-<br>
-
 ## **SAMPLE**
-
-<br>
 
 ### **Code**
 
@@ -197,22 +172,14 @@ class _MyAppState extends State<MyApp> {
 }  
  
 ```
-<br>
 
 ### **Output**
-***
-<br>
-
-<p align="center">
-  <img src="https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons5.png" alt="TextButton Widget Output" width="250" height="520">
-</p>
-<br>
 
 ***
-<br>
+![Float Action Button Widget Output](https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons5.png)
+
+***
 
 ## **Resources:**
-
-<br>
 
 * [**JAVAPOINT**](https://www.javatpoint.com/flutter-buttons)
