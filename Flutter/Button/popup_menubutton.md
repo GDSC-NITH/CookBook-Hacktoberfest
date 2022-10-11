@@ -1,4 +1,5 @@
 # Button
+
 ## **About PopupMenu Button Widget**
 
 [Click here to check in official docs of Flutter](https://docs.flutter.dev/development/ui/widgets/material)
@@ -11,17 +12,9 @@ One of child or icon may be provided, but not both. If icon is provided, then Po
 
 If both are null, then a standard overflow icon is created (depending on the platform).
 
-<br>
-
-
-<p align="center">
-  <img src="https://miro.medium.com/max/1400/0*gKDtVyHyd4YsUdME" alt="popup menu Widget Output" width="600" height="520">
-
-<br>
+![PopUp Menu Widget Output](https://miro.medium.com/max/1400/0*gKDtVyHyd4YsUdME)
 
 ## **PopUp-Menu Button Widget Constructor**
-
-<br>
 
 ```Dart
 PopupMenuButton({
@@ -46,133 +39,146 @@ PopupMenuButton({
     PopupMenuPosition position = PopupMenuPosition.over
     })
 ```
-package:flutter/material.dart
 
-<br>
+package:flutter/material.dart
 
 ***
 
-<br>
+## **Essential Properties Of Popup Menu Button Widget**
 
-## **Essential Properties Of Popup Menu Button Widget** 
+### **child:**
 
-<br>
-
-### **child:** 
 If provided, child is the widget used for this button and the button will utilize an InkWell for taps.
 
-### **color:** 
+### **color:**
+
 If provided, the background color used for the menu.
 
-### **constraints:** 
+### **constraints:**
+
 Optional size constraints for the menu.
 
-### **elevation:** 
+### **elevation:**
+
 The z-coordinate at which to place the menu when open. This controls the size of the shadow below the menu.
 
-### **enabled:** 
+### **enabled:**
+
 Whether this popup menu button is interactive.
 
-### **enableFeedback:** 
+### **enableFeedback:**
+
 Whether detected gestures should provide acoustic and/or haptic feedback.
 
-### **hashCode:** 
+### **hashCode:**
+
 The hash code for this object.
 
-### **icon:** 
+### **icon:**
+
 If provided, the icon is used for this button and the button will behave like an IconButton.
 
-### **iconSize:** 
+### **iconSize:**
+
 If provided, the size of the Icon.
 
-### **initialValue:** 
+### **initialValue:**
+
 The value of the menu item, if any, that should be highlighted when the menu opens.
 
-### **itemBuilder:** 
+### **itemBuilder:**
+
 Called when the button is pressed to create the items to show in the menu.
 
-### **key:** 
+### **key:**
+
 Controls how one widget replaces another widget in the tree.
 
-### **offset:** 
+### **offset:**
+
 The offset is applied relative to the initial position set by the position.
 
-### **onCanceled:** 
+### **onCanceled:**
+
 Called when the user dismisses the popup menu without selecting an item.
 
-### **onSelected:** 
+### **onSelected:**
+
 Called when the user selects a value from the popup menu created by this button.
 
-### **padding:** 
+### **padding:**
+
 Matches IconButton's 8 dps padding by default. In some cases, notably where this button appears as the trailing element of a list item, it's useful to be able to set the padding to zero.
 
-### **position:** 
+### **position:**
+
 Whether the popup menu is positioned over or under the popup menu button.
 
 ### **runtime Type:**
+
 A representation of the runtime type of the object.
 
-### **shape:** 
+### **shape:**
+
 If provided, the shape used for the menu.
 
-### **splashRadius:** 
+### **splashRadius:**
+
 The splash radius.
 
-### **tooltip:** 
+### **tooltip:**
+
 Text that describes the action that will occur when the button is pressed.
 
-<br>
-
 ***
 
-<br>
+## **Essential Methods Of Popup Menu Button Widget**
 
-## **Essential Methods Of Popup Menu Button Widget** 
+### **createElement():**
 
-<br>
-
-### **createElement():** 
 Creates a StatefulElement to manage this widget's location in the tree.
 
-### **createState():** 
+### **createState():**
+
 Creates the mutable state for this widget at a given location in the tree.
 
-### **debugDescribeChildren():** 
+### **debugDescribeChildren():**
+
 Returns a list of DiagnosticsNode objects describing this node's children.
 
-### **debugFillProperties():** 
+### **debugFillProperties():**
+
 Add additional properties associated with the node.
 
+### **noSuchMethod(Invocation invocation):**
 
-### **noSuchMethod(Invocation invocation):** 
 Invoked when a non-existent method or property is accessed.
 
-### **toDiagnosticsNode():** 
+### **toDiagnosticsNode():**
+
 Returns a debug representation of the object that is used by debugging tools and by DiagnosticsNode.toStringDeep.
 
-### **toString():** 
+### **toString():**
+
 A string representation of this object.
 
-### **toStringDeep():** 
+### **toStringDeep():**
+
 Returns a string representation of this node and its descendants.
 
-### **toStringShallow():** 
+### **toStringShallow():**
+
 Returns a one-line detailed description of the object.
 
-### **toStringShort():** 
+### **toStringShort():**
+
 A short, textual description of this widget.
 
-<br>
-
 ***
-<br>
-
 
 ## **SAMPLE**
 
-<br>
 Open the main.dart file and replace it with the below code.
-<br>
 
 ### **Code**
 
@@ -261,25 +267,16 @@ class ChoiceCard extends StatelessWidget {
 }  
  
 ```
-<br>
 
 ### **Output**
+
 Run the application in android emulator, and it will give the UI similar to the following screenshot. When we click the three dots shown at the top left corner of the screen, it will pop up the multiple options. Here, we can select any option, and it will keep it in the card, as shown in the second image.
 
-<br>
-
-<p align="center">
-  <img src="https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons10.png" alt="TextButton Widget Output" width="250" height="520">
-</p><p align="center">
-  <img src="https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons11.png" alt="TextButton Widget Output" width="250" height="520">
-</p>
-<br>
+![PopUp Menu Widget Output](https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons10.png)
+![PopUp Menu Widget Output](https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons11.png)
 
 ***
-<br>
 
 ## **Resources:**
-
-<br>
 
 * [**JAVAPOINT**](https://www.javatpoint.com/flutter-buttons)
