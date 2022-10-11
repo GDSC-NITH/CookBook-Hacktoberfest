@@ -1,10 +1,12 @@
 # C++
+
 ![6038586442907648](https://user-images.githubusercontent.com/91022462/194752777-0fcc1ef6-648e-4ae5-833c-8128bea472c9.png)
 
 C++ is a cross-platform language that can be used to create high-performance applications. C++ is a general purpose, case-sensitive, free-form programming language that supports object-oriented, procedural and generic programming.
 C++ is a widely used middle-level programming language which is used in developing major operating systems( Windows, Linux, Android, Ubuntu, iOS etc), Games, databases and compilers etc.  
 
 ## Basics
+
 * `cin >> n`: read value into the variable n from input stream
 * `cout << n`: print the value to the output stream
 * `//`: single line comments
@@ -18,14 +20,13 @@ int main() {
     return 0;
 }  
 ```
+
 * `#include <iostream>`: iostream is a inbuilt header library which allows you to deal with input and output objects like cout etc.
 * `using namespace std`: Specifies that the object and variable names can be used from standard library.
 * `cin`: to accept input from standard input device i.e keyboard.
 * `cout`: to print the output.
 * `main()`: main function is the entry point of any C++ program.
 * `return 0`: To end the main function
-
-
 
 ## Data types
 
@@ -40,11 +41,14 @@ int main() {
 ```c
 data-type variable-name = value;
 ```
+
 ```c
 int value = 10; // declaring int variable and assigning value 10 to it
 char grade = 'A'; // declaring char variable and assigning value A to it
 ```
+
 ### Naming convention
+
 * only letters (both uppercase and lowercase letters), digits and underscore(`_`).
 * cannot contain white spaces
 * First letter should be either a letter or an underscore(`_`).
@@ -58,7 +62,9 @@ char grade = 'A'; // declaring char variable and assigning value A to it
 data-type array-name[size]; // one-dimensional Array
 data-type array-name[size][size]; // two-dimensional Array
 ```
-### Example:
+
+### Example
+
 ```c
 int a[5] = {1,2,3,4,5};
 int a[2][3] = {
@@ -66,12 +72,15 @@ int a[2][3] = {
                 {4,5,6}
               };
 ```
+
 ## String
 
 It stores a sequence of character and it also functions like a vector.
 It contain many fuctions:
 begin(),end(),sort(),length() and many more
-### Example:
+
+### Example
+
 ```c
 string s="abcde";
 cout<<s[2];      //prints c
@@ -80,6 +89,7 @@ s.length();
 ```
 
 ## Literals or Constants
+
 |Literal | Example|
 |----|----|
 |Integer Literal- decimal|255|
@@ -91,20 +101,21 @@ s.length();
 |Boolean literals| true, false|
 
 ### Escape sequences
+
 |Escape sequence| Description|
 |----|----|
-|\n	| New line|
-|\r	| Carriage Return|
-|\?	| Question mark|
-|\t	| Horizontal tab|
-|\v	| Vertical tab|
-|\f	|Form feed|
-|\\	| Backslash|
-|\'	| Single quotation|
-|\"	| Double quotation|
+|\n | New line|
+|\r | Carriage Return|
+|\? | Question mark|
+|\t | Horizontal tab|
+|\v | Vertical tab|
+|\f |Form feed|
+|\\ | Backslash|
+|\' | Single quotation|
+|\" | Double quotation|
 |\0 | Null character|
-|\b	|Back space|
-|\a	| Audible Bell|
+|\b |Back space|
+|\a | Audible Bell|
 
 ## Operators
 
@@ -119,7 +130,6 @@ s.length();
 | sizeof operator| sizeof() |
 | Scope Resolution Operator| :: (used to reference the global variable or member function that is out of scope.) |
 
-
 ## Keywords(reserved words)
 
 ```c
@@ -131,21 +141,22 @@ const        float       short      unsigned
 continue     for         signed     void
 default      goto        sizeof     volatile
 do           if          static     while
-try 	     catch	 throw	    asm
-operator     new	 template   this
-public 	     private     protected  inline	
+try       catch  throw     asm
+operator     new  template   this
+public       private     protected  inline 
 ```
-
 
 ## Conditional Statements
 
 ### 1. If
+
 ```c
 if(conditional-expression)
 {
     //code
 }
 ```
+
 ### 2. If-else
 
 ```c
@@ -156,11 +167,13 @@ if(conditional-expression)
     //code
 }
 ```
+
 If-else using Ternary Operator
 
 ```c
 conditional-expression ? code1 : code2;
 ```
+
 if conditional-expression is true, code1 is executed.
 And, if condition is false, code2 is executed.
 
@@ -180,6 +193,7 @@ else {
     //code
 }
 ```
+
 ### 4. Switch
 
 ```c
@@ -200,18 +214,23 @@ default:
 ## Loops
 
 ### 1. For
+
 ```c
 for(Initialization; Condition; Increment/decrement){  
 //code  
 } 
 ```
+
 ### 2. While
+
 ```c
 while(condition){  
 //code 
 }  
 ```
+
 ### 3. Do-While
+
 ```c
 do{  
 //code 
@@ -244,7 +263,9 @@ datatype *pointername;
 (or)
 datatype* pointername;
 ```
+
 ### Example
+
 ```c
 int x = 10, *ptr;
 
@@ -285,37 +306,44 @@ class MyClass {       // The class
 
 ## Enum
 
-Enumeration data type is a user-defined data type in C++. `enum` keyword is used to declare a new enumeration types in C++. 
+Enumeration data type is a user-defined data type in C++. `enum` keyword is used to declare a new enumeration types in C++.
 
 ```c
 enum name{constant1, constant2, constant3, ....... } var-list;
 ```
+
 ### Example
+
 ```c
 enum month{January, February, March, April, May, June, July, August, September, October, November, December} name;
 ```
 
 ## Typedef
-Typedef is used to explicitly define new data type names by using the keyword `typedef`. It defines a name for an existing data type but doesn't create a new data type. 
+
+Typedef is used to explicitly define new data type names by using the keyword `typedef`. It defines a name for an existing data type but doesn't create a new data type.
 
 ```c
 typedef data-type name;
 ```
+
 ### Example
+
 ```c
 typedef unsigned int distance;  // typedef of int 
 ```
 
-
 ## Macros
+
 Macro is defined by #define directive. Whenever a macro name is encountered by the compiler, it replaces the name with the definition of the macro. Macro definitions need not be terminated by a semi-colon(;).
 
 ### Example
+
 ```c
 //Can be writtern before or after
 #inculde<iostream>
 //but should be before the main()
 ```
+
 ```c
 #define ll long long //ll is then refrenced as long long in the whole code
 ```
@@ -325,19 +353,20 @@ Macro is defined by #define directive. Whenever a macro name is encountered by t
 Genrally, used in Competetive coding and in big projects where need to write same function is repetetive
 
 ## Vectors
+
 Vectors are same as dynamic arrays. They will be resized on element inseertions & deletions.
 
 Functions associated with the vector are:
 
-Following functions return iterator 
-begin() 
-end() 
-rbegin() 
-rend() 
-cbegin() 
-cend() 
-crbegin() 
-crend() 
+Following functions return iterator
+begin()
+end()
+rbegin()
+rend()
+cbegin()
+cend()
+crbegin()
+crend()
 
 ```c
 #include <iostream>
@@ -362,26 +391,27 @@ int main()
 ```
 
 If we want to initialize 2d vectors or even 3d vectors (i.e. arrays) then we need to embed the vectors inside the vector data structures accordingly i.e. if we want a 2d vector then vector is embedded inside a vector data structure like
+
 ```c
 vector<vector<int>> v2;//
 ```
+
 or we can for 3d vector like
 
 ```c
 vector<vector<vector<int>>> v3;
 ```
 
-
-## Stacks 
+## Stacks
 
 Stacks are a type of container adaptors with LIFO(Last In First Out) type of working, where a new element is added at one end (top) and an element is removed from that end only.
 
-The functions associated with stack are: 
-empty() – Returns whether the stack is empty – Time Complexity : O(1) 
-size() – Returns the size of the stack – Time Complexity : O(1) 
-top() – Returns a reference to the top most element of the stack – Time Complexity : O(1) 
-push(g) – Adds the element ‘g’ at the top of the stack – Time Complexity : O(1) 
-pop() – Deletes the top most element of the stack – Time Complexity : O(1) 
+The functions associated with stack are:
+empty() – Returns whether the stack is empty – Time Complexity : O(1)
+size() – Returns the size of the stack – Time Complexity : O(1)
+top() – Returns a reference to the top most element of the stack – Time Complexity : O(1)
+push(g) – Adds the element ‘g’ at the top of the stack – Time Complexity : O(1)
+pop() – Deletes the top most element of the stack – Time Complexity : O(1)
 
 ```c
 
@@ -389,35 +419,34 @@ pop() – Deletes the top most element of the stack – Time Complexity : O(1)
 #include <stack>
 using namespace std;
 int main() {
-	stack<int> stack;
-	stack.push(21);
-	stack.push(22);
-	stack.push(24);
-	stack.push(25);
-	
-		stack.pop();
-	stack.pop();
+ stack<int> stack;
+ stack.push(21);
+ stack.push(22);
+ stack.push(24);
+ stack.push(25);
+ 
+  stack.pop();
+ stack.pop();
 
-	while (!stack.empty()) {
-		cout << ' ' << stack.top();
-		stack.pop();
-	}
+ while (!stack.empty()) {
+  cout << ' ' << stack.top();
+  stack.pop();
+ }
 }
 
 ```
-
 
 ## Queue
 
 Queues are a type of container adaptors that operate in a first in first out (FIFO) type of arrangement. Elements are inserted at the back (end) and are deleted from the front
 
-queue::empty()	Returns whether the queue is empty.
-queue::size()	Returns the size of the queue.
-queue::swap()	Exchange the contents of two queues but the queues must be of the same type, although sizes may differ.
-queue::emplace()	Insert a new element into the queue container, the new element is added to the end of the queue.
-queue::front()	Returns a reference to the first element of the queue.
-queue::back()	Returns a reference to the last element of the queue.
-queue::push(g) 	Adds the element ‘g’ at the end of the queue.
+queue::empty() Returns whether the queue is empty.
+queue::size() Returns the size of the queue.
+queue::swap() Exchange the contents of two queues but the queues must be of the same type, although sizes may differ.
+queue::emplace() Insert a new element into the queue container, the new element is added to the end of the queue.
+queue::front() Returns a reference to the first element of the queue.
+queue::back() Returns a reference to the last element of the queue.
+queue::push(g)  Adds the element ‘g’ at the end of the queue.
 queue::pop() removes the element
 
 ```c
@@ -426,26 +455,25 @@ queue::pop() removes the element
 #include <queue>
 using namespace std;
 int main() {
-	queue<int> q;
-	q.push(21);
-	q.push(22);
-	q.push(24);
-	q.push(25);
-	
-		q.pop();
-	q.pop();
+ queue<int> q;
+ q.push(21);
+ q.push(22);
+ q.push(24);
+ q.push(25);
+ 
+  q.pop();
+ q.pop();
 
-	while (!q.empty()) {
-		cout << ' ' << q.front();
-		q.pop();
-	}
+ while (!q.empty()) {
+  cout << ' ' << q.front();
+  q.pop();
+ }
 }
 ```
 
-
 ## Sort one-line
 
-Sorting is one of the most basic functions applied to data. It means arranging the data in a particular fashion, which can be increasing or decreasing. There is a builtin function in C++ STL by the name of sort(). 
+Sorting is one of the most basic functions applied to data. It means arranging the data in a particular fashion, which can be increasing or decreasing. There is a builtin function in C++ STL by the name of sort().
 This function internally uses IntroSort. In more details it is implemented using hybrid of QuickSort, HeapSort and InsertionSort.
 
 ```c
@@ -479,7 +507,6 @@ sort(v.rbegin(),v.rend()); // This will also sort the vector in a descending ord
 }
 
 ```
-
 
 ## Header Files
 
