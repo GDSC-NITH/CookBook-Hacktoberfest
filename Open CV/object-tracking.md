@@ -126,4 +126,3 @@ while  True:
 cv.destroyAllWindows()
 ```
 
-
