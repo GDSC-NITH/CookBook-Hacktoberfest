@@ -16,9 +16,10 @@ We start from the edges with the lowest weight and keep adding edges until we re
 
 The steps for implementing Kruskal's algorithm are as follows:
 
-1. Sort all the edges from low weight to high
-2. Take the edge with the lowest weight and add it to the spanning tree. If adding the edge created a cycle, then reject this edge.
-3. Keep adding edges until we reach all vertices.
+
+* Sort all the edges from low weight to high
+* Take the edge with the lowest weight and add it to the spanning tree. If adding the edge created a cycle, then reject this edge.
+* Keep adding edges until we reach all vertices.
 
 ```
 #include<bits/stdc++.h>
@@ -98,11 +99,10 @@ m = 4
 (0,3,5)
 ```
 
-```
 Output
 Following are the edges in the constructed MST
 2 -- 3 == 4
 0 -- 3 == 5
 0 -- 1 == 10
 Minimum Cost Spanning Tree: 19
-```
+
