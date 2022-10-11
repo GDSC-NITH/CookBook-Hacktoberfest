@@ -176,7 +176,8 @@ For example, consider these two routes:
 <Route path="/teams/:teamId" />
 <Route path="/teams/new" />
 ```
-Now consider the URL is http://example.com/teams/new.
+
+Now consider the URL is <http://example.com/teams/new>.
 
 Even though both routes technically match the URL (`new` could be the `:teamId`), you intuitively know that we want the second route (`/teams/new`) to be picked. React Router's matching algorithm knows that, too.
 
@@ -227,7 +228,7 @@ Given the following route config:
 </Route>
 ```
 
-Consider the url https://example.com/home/project/123, which renders the following route component hierarchy:
+Consider the url <https://example.com/home/project/123>, which renders the following route component hierarchy:
 
 ```
 <Home>
@@ -292,7 +293,7 @@ function Game() {
 }
 ```
 
-When the user visits or clicks links to https://example.com/real-salt-lake/45face3, all three route loaders will be called and loaded in parallel, before the UI for that URL renders.
+When the user visits or clicks links to <https://example.com/real-salt-lake/45face3>, all three route loaders will be called and loaded in parallel, before the UI for that URL renders.
 
 ### **Redirects**
 
@@ -442,6 +443,7 @@ Form elements's `name` prop are submitted to the action:
   </label>
 </Form>
 ```
+
 The normal HTML document request is prevented and sent to the matching route's action (`<Route path>` that matches the `<form action>`), including the `request.formData`.
 
 ```
@@ -464,7 +466,7 @@ Decades old web conventions indicate that when a form is posted to the server, d
 
 After route actions are called, the loaders for all of the data on the page is called again to ensure the UI stays up-to-date with the data automatically. No cache keys to expire, no context providers to reload.
 
-See: 
+See:
 
 * [`Tutorial "Creating Contacts"`](https://reactrouter.com/en/6.4.2/start/tutorial#creating-contacts)
 
@@ -551,6 +553,7 @@ function Tasks() {
   ));
 }
 ```
+
 Each task can be marked complete independently of the rest, with its own pending state and without causing a navigation with a [`fetcher`](https://reactrouter.com/en/6.4.2/hooks/use-fetcher):
 
 ```
@@ -658,7 +661,6 @@ You can also customize the behavior by restoring based on something other than l
 See:
 
 * [`<ScrollRestoration>`](https://reactrouter.com/en/6.4.2/components/scroll-restoration)
-
 
 ### **Web Standard APIs**
 
