@@ -23,25 +23,29 @@ in C++.
 
 ### Syntax for vector declaration:
 
-```c
+```
+c
 vector<data_type> vector_name;
 ```
 
 ### For example: To declare a vector of integer with a name v:
 
-```c
+```
+c
 vector<int> v;
 ```
 
 ### To dynamically allocate the same:
 
-```c
+```
+c
 vector<int> *v = new vector<int>(); //Header file used is : #include <vector>
 ```
 
 ### Some important functions of vector:
 
-```c
+```
+c
 push_back           Add element at the end
 pop_back            Delete last element
 insert              Insert elements
@@ -57,9 +61,10 @@ Statement: Perform the following tasks:
 2. Insert the elements from 1 to 10 and print size along with capacity at each
    step.
 
-#### Solution Code:
+### Solution Code:
 
-```c
+```
+c
 vector<int> *v = new vector<int>();
 #include <iostream>
 #include <vector>
@@ -74,9 +79,10 @@ return 0;
 }
 ```
 
-#### Output:
+### Output:
 
-```c
+```
+c
 0 0
 1 1
 2 2
@@ -89,7 +95,7 @@ return 0;
 16 9
 ```
 
-#### Observation:
+### Observation:
 
 You can see that capacity doubles each time as the vector gets an extra element.
 But size represents the total number of elements present in the vector irrespective
