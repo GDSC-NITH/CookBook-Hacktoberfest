@@ -5,54 +5,35 @@
 
 RecyclerView is the ViewGroup that contains the views corresponding to your data.Displaying a list or grid of data is one of the most common UI tasks in Android. Lists vary from simple to very complex. A list of text views might show simple data, such as a shopping list. A complex list, such as an annotated list of vacation destinations, might show the user many details inside a scrolling grid with headers.
 
-<br>
-
 ***
-<br>
 
-## The greatest benefit of RecyclerView is that it is very efficient for large lists:
+## The greatest benefit of RecyclerView is that it is very efficient for large lists
 
-1. By default, RecyclerView only does work to process or draw items that are currently visible on the screen. For example, if your list has a thousand elements but only 10 elements are visible, RecyclerView does only enough work to draw 10 items on the screen. When the user scrolls, RecyclerView figures out what new items should be on the screen and does just enough work to display those items. 
+1. By default, RecyclerView only does work to process or draw items that are currently visible on the screen. For example, if your list has a thousand elements but only 10 elements are visible, RecyclerView does only enough work to draw 10 items on the screen. When the user scrolls, RecyclerView figures out what new items should be on the screen and does just enough work to display those items.
 2. When an item scrolls off the screen, the item's views are recycled. That means the item is filled with new content as it scrolls onto the screen. This RecyclerView behavior saves a lot of processing time and helps lists scroll smoothly.
 3. When an item changes, instead of redrawing the entire list, RecyclerView can update that one item. This is a huge efficiency gain when displaying long lists of complex items!
 
-<br>
+![RecyclerView Graphical Representation](/Kotlin(Android)/assets/image-2.png)
 
-<img src="Android using Kotlin/assets/image-2.png" alt="RecyclerView Graphical Representation" width="80%" height="80%" hspace="100">
-
-<br>
 <!--  image 1  -->
 
-<br>
-
 ***
-<br>
 
 ## The adapter pattern
 
 If you ever travel between countries that use different electric sockets, you probably know how you can plug your devices into foreign outlets by using an adapter. The adapter lets you convert one type of plug to another, which is really converting one interface into another.
 
-<br>
-
 The **adapter pattern** in software engineering uses a similar concept. This pattern allows the API of one class to be used as another API. RecyclerView uses an adapter to transform app data into something the RecyclerView can display, without changing how the app stores and processes the data. For the sleep-tracker app, you build an adapter that adapts data from the Room database into something that RecyclerView knows how to display, without changing the ViewModel
 
-<br>
-
 ***
-<br>
-
-<br>
 
 # Implementing a RecyclerView
 
-<br>
+![RecyclerView work-flow](/Kotlin(Android)/assets/image-3.png)
 
-<img src="Android using Kotlin/assets/image-3.png" alt="RecyclerView work-flow" width="60%" height="60%" hspace="200">
-
-<br>
 <!-- image 2 -->
 
-## To display your data in a RecyclerView, you need the following parts:
+## To display your data in a RecyclerView, you need the following parts
 
 - Data to display.
 - A RecyclerView instance defined in your layout file, to act as the container for the views.
@@ -61,8 +42,4 @@ The **adapter pattern** in software engineering uses a similar concept. This pat
 - A view holder. The view holder extends the ViewHolder class. It contains the view information for displaying one item from the item's layout. View holders also add information that RecyclerView uses to efficiently move views around the screen.
 - An adapter. The adapter connects your data to the RecyclerView. It adapts the data so that it can be displayed in a ViewHolder. A RecyclerView uses the adapter to figure out how to display the data on the screen.
 
-<br>
-
-<img src="Android using Kotlin/assets/image-1.png" alt="RecyclerView Graphical Representation"  width="80%" height="80%" hspace="100">
-
-<br>
+![RecyclerView Graphical Representation](/Kotlin(Android)/assets/image-1.png)

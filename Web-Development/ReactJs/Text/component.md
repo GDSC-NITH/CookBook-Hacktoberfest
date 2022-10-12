@@ -5,7 +5,7 @@
 ## Declarative
 
 React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
-Declarative views make your code more predictable and easier to debug. 
+Declarative views make your code more predictable and easier to debug.
 
 ## Component-Based
 
@@ -16,17 +16,14 @@ Since component logic is written in JavaScript instead of templates, you can eas
 
 We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.
 
-<br>
-
 ***
-
-<br>
 
 ## **A Simple Component**
 
 React components implement a ```render()``` method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by ```render()``` via ```this.props```.
 
 ### **Code**
+
 ```
 class HelloMessage extends React.Component {
   render() {
@@ -38,21 +35,19 @@ root.render(<HelloMessage name="Taylor" />);
 ```
 
 ### **Output**
+
 ```
 Hello Taylor
 ```
 
-<br>
-
 ***
-
-<br>
 
 ## **A Stateful Component**
 
 In addition to taking input data (accessed via ```this.props```), a component can maintain internal state data (accessed via ```this.state```). When a component’s state data changes, the rendered markup will be updated by re-invoking ```render()```.
 
 ### **Code**
+
 ```
 class Timer extends React.Component {
   constructor(props) {
@@ -87,21 +82,19 @@ root.render(<Timer />);
 ```
 
 ### **Output**
+
 ```
 Seconds: {No of seconds you've been on screen}
 ```
 
-<br>
-
 ***
-
-<br>
 
 ## **An Application**
 
 Using ```props``` and ```state```, we can put together a small Todo application. This example uses ```state``` to track the current list of items as well as the text that the user has entered. Although event handlers appear to be rendered inline, they will be collected and implemented using event delegation.
 
 ### **Code**
+
 ```
 class TodoApp extends React.Component {
   constructor(props) {
@@ -169,23 +162,17 @@ root.render(<TodoApp />);
 ```
 
 ### **Output**
-<p align="center">
-  <img src="../assets/OutputOne.png" alt="An Application" width="250" height="250">
-</p>
-<br>
 
-
-<br>
+![An Application](https://user-images.githubusercontent.com/77006897/194586107-277ddfa9-a386-49c2-a4d9-ee9425a6c8a6.png)
 
 ***
-
-<br>
 
 ## **A Component Using External Plugins**
 
 React allows you to interface with other libraries and frameworks. This example uses **remarkable**, an external Markdown library, to convert the ```<textarea>```’s value in real time.
 
 ### **Code**
+
 ```
 class MarkdownEditor extends React.Component {
   constructor(props) {
@@ -229,15 +216,11 @@ root.render(<MarkdownEditor />);
 ```
 
 ### **Output**
-<p align="center">
-  <img src="../assets/OutputTwo.png" alt="An Application" width="250" height="300">
-</p>
 
-<br>
+![An Application](https://user-images.githubusercontent.com/77006897/194585926-659c8815-45dd-4500-b0d3-7f9654db853c.png)
 
 ***
 
-<br>
-
 ## **Resources:**
+
 * [**REACT**](https://reactjs.org)

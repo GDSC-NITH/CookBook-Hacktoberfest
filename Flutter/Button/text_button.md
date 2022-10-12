@@ -1,17 +1,14 @@
 # Button
+
 ## **About Text Button Widget**
 
 [Click here to check in official docs of Flutter](https://docs.flutter.dev/development/ui/widgets/material)
 
 It is a text label button that does not have much decoration and displayed without any elevation. The flat button has two required properties that are: **child and onPressed()**. It is mostly used in toolbars, dialogs, or inline with other content. By default, the flat button has no color, and its text is black. But, we can use color to the button and text using color and textColor attributes, respectively.
 
-<br>
-
 ***
-<br>
 
 ## **Text Button Widget Constructor**
-<br>
 
 ```Dart
 TextButton({
@@ -27,16 +24,12 @@ TextButton({
   MaterialStatesController? statesController, 
   Widget child})
 ```
+
 package:flutter/material.dart
 
-<br>
-
 ***
-<br>
 
-## **Essential Properties of Text Button Widget** 
-
-<br>
+## **Essential Properties of Text Button Widget**
 
 1. **Autofocus:** True if this widget will be selected as the initial focus when no other node in its scope is currently focused.
 
@@ -66,28 +59,17 @@ package:flutter/material.dart
 
 14. **Style:** Customizes this button's appearance.
 
-<br>
-
 ***
-<br>
 
 ## **Important points to be noted:**
 
-<br>
-
 * The static styleFrom method is a convenient way to create a text button **ButtonStyle** from simple values.
 
-* If the **onPressed** and **onLongPress** callbacks are null, then this button will be disabled, it will not react to touch. 
-
-<br>
+* If the **onPressed** and **onLongPress** callbacks are null, then this button will be disabled, it will not react to touch.
 
 ***
-<br>
-
 
 ## **TextStyle**
-
-<br>
 
   | Attributes | Descriptions |
   | ---------- | ------------ |
@@ -98,7 +80,7 @@ package:flutter/material.dart
   | fontStyle  | It is used to style the font either in bold or italic form.
   | letterSpacing | It is used to determine the distance between the characters of the text.
   | wordSpacing | It is used to specify the distance between two words of the text.
-  | foreground | It determines the paint as a foreground for the text. 
+  | foreground | It determines the paint as a foreground for the text.
   | background | It determines the paint as a background for the text.
   | shadows | It is used to paint underneath the text.
   | decoration | We use this to decorate text using the three parameters: decoration, decorationColor, decorationStyle. The decoration determines the location, decorationColor specify the color, decorationStyle determine the shape.
@@ -106,11 +88,7 @@ package:flutter/material.dart
 
 ***
 
-<br>
-
 ## **SAMPLE**
-
-<br>
 
 ### **Code**
 
@@ -165,21 +143,15 @@ class _MyAppState extends State<MyApp> {
 }
  
 ```
-<br>
 
 ### **Output**
-***
-<br>
-
-<p align="center">
-  <img src="https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons.png" alt="TextButton Widget Output" width="250" height="520">
-</p>
-<br>
 
 ***
-<br>
+
+![Text Button Widget Output](https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons.png)
+
+***
 
 ## **Resources:**
-<br>
 
 * [**JAVAPOINT**](https://www.javatpoint.com/flutter-buttons)
