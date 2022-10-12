@@ -1,13 +1,14 @@
 # Button
+
 ## **About InkWell Button Widget**
 
 [Click here to check in official docs of Flutter](https://docs.flutter.dev/development/ui/widgets/material)
 
 InkWell button is a material design concept, which is used for touch response. This widget comes under the Material widget where the ink reactions are actually painted. It creates the app UI interactive by adding gesture feedback. It is mainly used for adding splash ripple effect.
 
-## **Troubleshooting** 
+## **Troubleshooting**
 
-### The ink splashes aren't visible!
+### The ink splashes aren't visible
 
 If there is an opaque graphic, e.g. painted using a Container, Image, or DecoratedBox, between the Material widget and the InkWell widget, then the splash won't be visible because it will be under the opaque graphic. This is because ink splashes draw on the underlying Material itself, as if the ink was spreading inside the material.
 
@@ -15,13 +16,9 @@ The Ink widget can be used as a replacement for Image, Container, or DecoratedBo
 
 If this is not possible for some reason, e.g. because you are using an opaque CustomPaint widget, alternatively consider using a second Material above the opaque widget but below the InkWell (as an ancestor to the ink well). The MaterialType.transparency material kind can be used for this purpose.
 
-### Example:
+### Example
 
-<p align="center">
-  <img src="https://i.stack.imgur.com/S4s8d.png" alt="TextButton Widget Output" width="250" height="520">
-</p>
-
-
+![TextButton Widget Output](https://i.stack.imgur.com/S4s8d.png)
 
 ### InkWell isn't clipping properly
 
@@ -29,27 +26,17 @@ If you want to clip an InkWell or any Ink widgets you need to keep in mind that 
 
 An easy solution is to deliberately wrap the Ink widgets you want to clip in a Material, and wrap that in a clipping widget instead. See Ink for an example.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/48603081/176392250-531ffed8-8495-446c-a425-75d068054c0b.png" alt="Inkwell does not clip Output" width="260" height="520">
-</p>
+![Inkwell does not clip Output](https://user-images.githubusercontent.com/48603081/176392250-531ffed8-8495-446c-a425-75d068054c0b.png)
 
 ### The ink splashes don't track the size of an animated container
 
 If the size of an InkWell's Material ancestor changes while the InkWell's splashes are expanding, you may notice that the splashes aren't clipped correctly. This can't be avoided.
 
-<p align="center">
-  <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210129140959/1-660x424.jpg" alt="Inkwell donot track size Output" width="600" height="520">
-</p>
-
-<br>
+![Inkwell donot track size Output](https://media.geeksforgeeks.org/wp-content/uploads/20210129140959/1-660x424.jpg)
 
 ***
 
-<br>
-
 ## **InkWell Button Widget Constructor**
-
-<br>
 
 ```Dart
 InkWell({
@@ -82,198 +69,194 @@ InkWell({
     MaterialStatesController? statesController
     })
 ```
+
 package:flutter/material.dart
 
-<br>
-
 ***
 
-<br>
+## **Essential Properties Of InkWell Button Widget**
 
-## **Essential Properties Of InkWell Button Widget** 
+### **Autofocus:**
 
-<br>
-
-
-### **Autofocus:** 
 True if this widget will be selected as the initial focus when no other node in its scope is currently focused.
 
+### **BorderRadius:**
 
-### **BorderRadius:** 
 The clipping radius of the containing rect. This is effective only if customBorder is null.
 
+### **canRequestFocus:**
 
-### **canRequestFocus:** 
 If true, this widget may request the primary focus.
 
+### **child:**
 
-### **child:** 
 The widget below this widget in the tree.
 
+### **containedInkWell:**
 
-### **containedInkWell:** 
 Whether this ink response should be clipped its bounds.
 
+### **customBorder:**
 
-### **customBorder:** 
 The custom clip border which overrides borderRadius.
 
+### **EnableFeedback:**
 
-### **EnableFeedback:** 
 Whether detected gestures should provide acoustic and/or haptic feedback.
 
+### **FocusColor:**
 
-### **FocusColor:** 
 The color of the ink response when the parent widget is focused. If this property is null then the focus color of the theme, ThemeData.focusColor, will be used.
 
+### **FocusNode:**
 
-### **FocusNode:** 
 An optional focus node to use as the focus node for this widget.
 
+### **HashCode:**
 
-### **HashCode:** 
 The hash code for this object.
 
+### **excludeFromSemantics:**
 
-### **excludeFromSemantics:** 
 Whether to exclude the gestures introduced by this widget from the semantics tree.
 
+### **highlightColor:**
 
-### **highlightColor:** 
 The highlight color of the ink response when pressed. If this property is null then the highlight color of the theme, ThemeData.highlightColor, will be used.
 
+### **highlightShape:**
 
-### **highlightShape:** 
 The shape (e.g., circle, rectangle) to use for the highlight drawn around this part of the material when pressed, hovered over, or focused.
 
+### **hoverColor:**
 
-### **hoverColor:** 
 The color of the ink response when a pointer is hovering over it. If this property is null then the hover color of the theme, ThemeData.hoverColor, will be used.
 
+### **key:**
 
-### **key:** 
 Controls how one widget replaces another widget in the tree.
 
+### **mouseCursor:**
 
-### **mouseCursor:** 
 The cursor for a mouse pointer when it enters or is hovering over the widget.
 
+### **onDoubleTap:**
 
-### **onDoubleTap:** 
 Called when the user double taps this part of the material.
 
+### **onFocusChange:**
 
-### **onFocusChange:** 
 Handler called when the focus changes.
 
+### **onHighlightChanged:**
 
-### **onHighlightChanged:** 
 Called when this part of the material either becomes highlighted or stops being highlighted.
 
+### **onHover:**
 
-### **onHover:** 
 Called when a pointer enters or exits the ink response area.
 
+### **onLongPress:**
 
-### **onLongPress:** 
 Called when the user long-presses on this part of the material.
 
+### **onTap:**
 
-### **onTap:** 
 Called when the user taps this part of the material.
 
+### **OnTapCancle:**
 
-### **OnTapCancle:** 
 Called when the user cancels a tap that was started on this part of the material.
 
-### **onTapDown:** 
+### **onTapDown:**
+
 Called when the user taps down this part of the material.
 
-### **onTapUp:** 
+### **onTapUp:**
+
 Called when the user releases a tap that was started on this part of the material. onTap is called immediately after.
 
-### **overlayColor:** 
+### **overlayColor:**
+
 Defines the ink response focus, hover, and splash colors.
 
-### **Radius:** 
+### **Radius:**
+
 The radius of the ink splash.
 
-### **SplashColor:** 
+### **SplashColor:**
+
 The splash color of the ink response. If this property is null then the splash color of the theme, ThemeData.splashColor, will be used.
 
-### **RunTimeType:** 
+### **RunTimeType:**
+
 A representation of the runtime type of the object.
 
-### **SplashFactory:** 
+### **SplashFactory:**
+
 Defines the appearance of the splash.
 
-### **StatesController:** 
-Represents the interactive "state" of this widget in terms of a set of MaterialStates, like MaterialState.pressed and MaterialState.focused.
+### **StatesController:**
 
-<br>
+Represents the interactive "state" of this widget in terms of a set of MaterialStates, like MaterialState.pressed and MaterialState.focused.
 
 ***
 
-<br>
+## **Essential Methods Of InkWell Button Widget**
 
-## **Essential Methods Of InkWell Button Widget** 
+### **build():**
 
-<br>
-
-
-### **build():** 
 Describes the part of the user interface represented by this widget.
 
-### **createElement():** 
+### **createElement():**
+
 Creates a StatelessElement to manage this widget's location in the tree.
 
 ### **debugCheckContext():**
+
 Asserts that the given context satisfies the prerequisites for this class.
 
 ### **debugDescribeChildren():**
+
 Returns a list of DiagnosticsNode objects describing this node's children.
 
 ### **debugFillProperties(DiagnosticPropertiesBuilder properties):**
+
 Add additional properties associated with the node.
 
 ### **getRectCallback(RenderBox referenceBox):**
+
 The rectangle to use for the highlight effect and for clipping the splash effects if containedInkWell is true.
 
-
 ### **noSuchMethod(Invocation invocation):**
+
 Invoked when a non-existent method or property is accessed.
 
 ### **toDiagnosticsNode():**
+
 Returns a debug representation of the object that is used by debugging tools and by DiagnosticsNode.toStringDeep.
 
-
 ### **toString():**
+
 A string representation of this object.
 
-
 ### **toStringDeep():**
+
 Returns a string representation of this node and its descendants.
 
-
 ### **toStringShallow():**
+
 Returns a one-line detailed description of the object.
 
-
 ### **toStringShort():**
+
 A short, textual description of this widget.
 
-
-<br>
-
 ***
-<br>
-
 
 ## **SAMPLE**
 
-<br>
 Open the main.dart file and replace it with the below code.
-<br>
 
 ### **Code**
 
@@ -324,33 +307,19 @@ class _MyAppState extends State<MyApp> {
 }  
  
 ```
-<br>
 
 ### **Output**
+
 Run the application in android emulator, and it will give the UI similar to the following screenshot. Every time we press the ring volume button, it will increase the volume by 2.
 
-<br>
+![InkWell Widget Output](https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons9.png)
 
-<p align="center">
-  <img src="https://static.javatpoint.com/tutorial/flutter/images/flutter-buttons9.png" alt="TextButton Widget Output" width="250" height="520">
-</p>
-<br>
+### Autofocus Example
 
-### Autofocus Example:
-
-<p align="center">
-  <img src="https://i.stack.imgur.com/QqEZ3.gif" alt="TextButton Widget Output" width="250" height="520">
-</p>
-<br>
-<p align="center">
-  <img src="https://miro.medium.com/max/1400/1*LAUBNX9bAIU9OEPt07x6Fg.png" alt="Inkwell types Output" width="600" height="520">
-</p>
-
+![InkWell Widget](https://i.stack.imgur.com/QqEZ3.gif)
+![Inkwell Button Output](https://miro.medium.com/max/1400/1*LAUBNX9bAIU9OEPt07x6Fg.png)
 ***
-<br>
 
 ## **Resources:**
-
-<br>
 
 * [**JAVAPOINT**](https://www.javatpoint.com/flutter-buttons)
