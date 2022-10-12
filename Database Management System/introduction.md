@@ -1,14 +1,12 @@
-## What is DBMS :
+# What is DBMS
 
-Database Management System (DBMS) is a collection of programs which enables its users to access a database, manipulate data and reporting/representation of data. 
-
-
+Database Management System (DBMS) is a collection of programs which enables its users to access a database, manipulate data and reporting/representation of data.
 
 ## Why to Learn DBMS?
 
-DBMS (Database Management System) plays a major role in software engineering. 
+DBMS (Database Management System) plays a major role in software engineering.
 In each industry, from smaller firms to higher-level organizations which uses softwares, must need DBMS for data management which can be only operated by a person who knows DBMS very well.
-So there are huge opportunities for the people who have a better knowledge of DBMS. 
+So there are huge opportunities for the people who have a better knowledge of DBMS.
 DBMS helps businesses to better organize their data by providing various features like :
 
 1. Real world entities
@@ -18,12 +16,7 @@ DBMS helps businesses to better organize their data by providing various feature
 5. Less redundancy
 6. Query processing
 
-
-
-
-
-
-## Applications of Database Management System :
+## Applications of Database Management System
 
 1. Banking: for storing customer information, account activities, deposits, payment details, loans, etc.
 
@@ -35,11 +28,7 @@ DBMS helps businesses to better organize their data by providing various feature
 
 5. Airlines: for reservations, ticket booking and schedule information
 
-
-
-
-
-## Advantages of DBMS :
+## Advantages of DBMS
 
 1. DBMS offers various techniques and powerful functions to efficiently store & retrieve data
 
@@ -57,10 +46,7 @@ DBMS helps businesses to better organize their data by providing various feature
 
 8. Reduces Application Development Time
 
-
-
-
-## Disadvantages of DBMS :
+## Disadvantages of DBMS
 
 1. Hardware and Software cost of a DBMS is quite high which increases the budget of your organization
 
@@ -72,13 +58,7 @@ DBMS helps businesses to better organize their data by providing various feature
 
 5. DBMS can’t perform sophisticated calculations
 
-
-
-
-
-
 ## **Resources:**
-<br>
 
 * [**JAVAPOINT**](https://www.javatpoint.com/dbms-tutorial)
 * [**GFG**](https://www.geeksforgeeks.org/dbms/)
