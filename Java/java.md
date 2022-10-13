@@ -148,3 +148,118 @@ implements: Java implements keyword is used to implement an interface.
 * void: Java void keyword is used to specify that a method does not have a return value.
 * volatile: Java volatile keyword is used to indicate that a variable may change asynchronously.
 * while: Java while keyword is used to start a while loop. This loop iterates a part of the program several times. If the number of iteration is not fixed, it is recommended to use the while loop.
+
+
+## Conditional Statements
+
+### 1. If
+
+```c
+if(conditional-expression)
+{
+    //code
+}
+```
+
+### 2. If-else
+
+```c
+if(conditional-expression)
+{
+    //code
+} else {
+    //code
+}
+```
+
+If-else using Ternary Operator
+
+```c
+variable = (condition) ? expression1 : expression2;
+```
+
+The above statement states that if the condition returns true, expression1 gets executed, else the expression2 gets executed and the final result stored in a variable.
+
+### 3. If-else-if ladder
+
+```c
+if(conditional-expression-1)
+{
+    //code
+} else if(conditional-expression-2) {
+    //code
+} else if(conditional-expression-3) {
+    //code
+}
+....
+else {
+    //code
+}
+```
+
+### 4. Switch
+
+```c
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+...    
+    
+default:     
+ //code to be executed when all the above cases are not matched;    
+} 
+```
+
+## Loops
+
+### 1. For
+
+```c
+for(Initialization; Condition; Increment/Decrement){  
+//code  
+} 
+```
+
+### 2. While
+
+```c
+while(condition){  
+//code 
+}  
+```
+
+### 3. Do-While
+
+```c
+do{  
+//code 
+} while(condition); 
+```
+### 4. For-each loop
+
+```c
+for (type var : array) 
+{ 
+    statements using var;
+}
+```
+## Methods
+Method in Java or Java Method is a collection of statements that perform some specific task and return the result to the caller. A Java method can perform some specific task without returning anything. Methods in Java allow us to reuse the code without retyping the code. In Java, every method must be part of some class that is different from languages like C, C++, and Python. 
+1. A method is like function i.e. used to expose behavior of an object.
+2. it is a set of codes that perform a particular task.
+
+```c
+<access_modifier> <return_type> <method_name>( list_of_parameters)
+{
+    //body
+}
+```
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/methods-in-java.png);
