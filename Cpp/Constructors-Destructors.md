@@ -370,6 +370,14 @@ main()
 ## Output
 ![image](https://user-images.githubusercontent.com/104310254/194941460-aa77412f-de6f-4c31-b351-c16c944a8d98.png)
 
+## Characteristics of a destructor:-
+1. Destructor is invoked automatically by the compiler when its corresponding constructor goes out of scope and releases the memory space that is no longer required by the program.
+2. Destructor neither requires any argument nor returns any value therefore it cannot be overloaded.
+3. Destructor  cannot be declared as static and const;
+4. Destructor should be declared in the public section of the program.
+5. Destructor is called in the reverse order of its constructor invocation.
+
+![image](https://images.slideplayer.com/34/8347122/slides/slide_9.jpg)
 ## Resources
 [GFG](https://www.geeksforgeeks.org/constructors-c/?ref=lbp) <br/>
 [CodeMentor](https://www.codementor.io/@supernerdd7/constructor-and-destructor-in-c-1r8kkogm6j#:~:text=Constructor%20and%20Destructor%20are%20the,when%20the%20object%20is%20destroyed.)
