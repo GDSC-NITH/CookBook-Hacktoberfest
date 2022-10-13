@@ -57,22 +57,6 @@ public class MainClass {
 |Primitive | int, char, float, double, short, byte, long, boolean |
 |Non-Primitive | Classes, Interfaces, Strings, Object, Array, etc. |
 
-## Arrays
-An array in Java is a group of like-typed variables referred to by a common name. Arrays in Java work differently than they do in C/C++. An array can contain primitives (int, char, etc.) and object (or non-primitive) references of a class depending on the definition of the array. In the case of primitive data types, the actual values are stored in contiguous memory locations. In the case of class objects, the actual objects are stored in a heap segment. 
-
-### Creating, initializing and accessing an Array
-The general form of a one-dimensional array declaration is :
-```c
-type var-name[];
-OR
-type[] var-name;
-```
-* Instantiating an Array in Java
-```c
-var-name = new type [size];
-
-int[] intArray = new int[20]; // combining both statements in one
-```
 ## Strings
 String objects are stored in a special memory area known as string constant pool. To make Java more memory efficient, concept of string literal is used (because no new objects are created if it exists already in string constant pool). 
 ```c
@@ -263,3 +247,38 @@ Method in Java or Java Method is a collection of statements that perform some sp
 ```
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/methods-in-java.png);
+
+# Data Structures
+
+## Arrays
+An array in Java is a group of like-typed variables referred to by a common name. Arrays in Java work differently than they do in C/C++. An array can contain primitives (int, char, etc.) and object (or non-primitive) references of a class depending on the definition of the array. In the case of primitive data types, the actual values are stored in contiguous memory locations. In the case of class objects, the actual objects are stored in a heap segment. 
+
+### Creating, initializing and accessing an Array
+The general form of a one-dimensional array declaration is :
+```c
+type var-name[];
+OR
+type[] var-name;
+```
+* Instantiating an Array in Java
+```c
+var-name = new type [size];
+
+int[] intArray = new int[20]; // combining both statements in one
+```
+## Linked List
+Linked List is a part of the Collection framework present in java.util package. This class is an implementation of the LinkedList data structure which is a linear data structure where the elements are not stored in contiguous locations and every element is a separate object with a data part and address part. The elements are linked using pointers and addresses. Each element is known as a node. 
+```c
+LinkedList ll = new LinkedList();  
+```
+### Some Methods for Linked List
+* add(int index , E element);
+* addAll(Collection<E> c);
+* clear();
+* clone();
+* contains(Object o);
+* getFirst();
+* getLast();
+* indexOf();
+* lastIndexOf();
+* peek();
