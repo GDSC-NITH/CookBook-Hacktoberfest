@@ -1,14 +1,12 @@
 # DFS for a Graph
+
 ## **Depth First Search**
 
 **Depth First Search** (DFS) is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
 
-<br>
-
 ***
-<br>
 
-## The algorithm works as follows:
+## The algorithm works as follows
 
 * SET STATUS = 1 (ready state) for each node in G
 
@@ -25,12 +23,10 @@
 * EXIT
 
 The graph might have two different disconnected parts so to make sure that we cover every vertex, we can also run the BFS algorithm on every node
-<br>
 
 ***
 
 ## **DFS Example**
-<br>
 
 Example of DFS algorithm
 
@@ -76,13 +72,9 @@ Print: E
 STACK:  
 Now, all the graph nodes have been traversed, and the stack is empty.
 
-<br>
-
 ***
 
 ## **SAMPLE**
-
-<br>
 
 The code for the Depth First Search Algorithm with an example is shown below. The code has been simplified so that we can focus on the algorithm rather than other details.
 
@@ -98,53 +90,52 @@ using namespace std;
 
 class Graph {
 public:
-	map<int, bool> visited;
-	map<int, list<int> > adj;
+ map<int, bool> visited;
+ map<int, list<int> > adj;
 
-	void addEdge(int v, int w);
+ void addEdge(int v, int w);
 
-	void DFS(int v);
+ void DFS(int v);
 };
 
 void Graph::addEdge(int v, int w)
 {
-	adj[v].push_back(w);
+ adj[v].push_back(w);
 }
 
 void Graph::DFS(int v)
 {
-	visited[v] = true;
-	cout << v << " ";
+ visited[v] = true;
+ cout << v << " ";
 
-	list<int>::iterator i;
-	for (i = adj[v].begin(); i != adj[v].end(); ++i)
-		if (!visited[*i])
-			DFS(*i);
+ list<int>::iterator i;
+ for (i = adj[v].begin(); i != adj[v].end(); ++i)
+  if (!visited[*i])
+   DFS(*i);
 }
 
 int main()
 {
 
-	Graph g;
-	g.addEdge(0, 1);
-	g.addEdge(0, 2);
-	g.addEdge(1, 2);
-	g.addEdge(2, 0);
-	g.addEdge(2, 3);
-	g.addEdge(3, 3);
+ Graph g;
+ g.addEdge(0, 1);
+ g.addEdge(0, 2);
+ g.addEdge(1, 2);
+ g.addEdge(2, 0);
+ g.addEdge(2, 3);
+ g.addEdge(3, 3);
 
-	cout << "Following is Depth First Traversal"
-			" (starting from vertex 2) \n";
+ cout << "Following is Depth First Traversal"
+   " (starting from vertex 2) \n";
 
 
-	g.DFS(2);
+ g.DFS(2);
 
-	return 0;
+ return 0;
 }
 
  
 ```
-<br>
 
 ### **Python Code**
 
@@ -155,41 +146,41 @@ from collections import defaultdict
 
 class Graph:
 
-	def __init__(self):
+ def __init__(self):
 
-		self.graph = defaultdict(list)
+  self.graph = defaultdict(list)
 
-	def addEdge(self, u, v):
-		self.graph[u].append(v)
+ def addEdge(self, u, v):
+  self.graph[u].append(v)
 
-	def DFSUtil(self, v, visited):
+ def DFSUtil(self, v, visited):
 
-		visited.add(v)
-		print(v, end=' ')
+  visited.add(v)
+  print(v, end=' ')
 
-		for neighbour in self.graph[v]:
-			if neighbour not in visited:
-				self.DFSUtil(neighbour, visited)
+  for neighbour in self.graph[v]:
+   if neighbour not in visited:
+    self.DFSUtil(neighbour, visited)
 
-	def DFS(self, v):
+ def DFS(self, v):
 
-		visited = set()
+  visited = set()
 
-		self.DFSUtil(v, visited)
+  self.DFSUtil(v, visited)
 
 
 if __name__ == "__main__":
-	g = Graph()
-	g.addEdge(0, 1)
-	g.addEdge(0, 2)
-	g.addEdge(1, 2)
-	g.addEdge(2, 0)
-	g.addEdge(2, 3)
-	g.addEdge(3, 3)
+ g = Graph()
+ g.addEdge(0, 1)
+ g.addEdge(0, 2)
+ g.addEdge(1, 2)
+ g.addEdge(2, 0)
+ g.addEdge(2, 3)
+ g.addEdge(3, 3)
 
-	print("Following is DFS from (starting from vertex 2)")
-	# Function call
-	g.DFS(2)
+ print("Following is DFS from (starting from vertex 2)")
+ # Function call
+ g.DFS(2)
 
 
 
@@ -201,13 +192,9 @@ The time complexity of the DFS algorithm is O(V+E), where V is the number of ver
 
 The space complexity of the DFS algorithm is O(V).
 
-<br>
-
 ***
-<br>
 
 ## **Resources:**
-<br>
 
 * [**JAVAPOINT**](https://www.javatpoint.com/depth-first-search-algorithm)
 * [**GFG**](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)

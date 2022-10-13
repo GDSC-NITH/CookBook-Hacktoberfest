@@ -1,3 +1,5 @@
+# WEB DEV
+
 ## What is HTML?
 
 HTML stands for Hyper Text Markup Language.
@@ -5,8 +7,7 @@ HTML helps you structure your page into elements such as paragraphs, sections, h
 So you can think of HTML as the language used for creating detailed instructions concerning style, type, format, structure and the makeup of a web page before it gets printed (shown to you).
 But in the context of web development, we can replace the term ‘printed’ with ‘rendered’ as a more accurate term.
 
-
-## Code solution :
+## Code solution
 
 ```html
 
@@ -42,9 +43,6 @@ But in the context of web development, we can replace the term ‘printed’ wit
 
 ```
 
-
-
-
 ## What is CSS?
 
 CSS stands for Cascading Style Sheets, and you use it to improve the appearance of a web page.
@@ -54,8 +52,7 @@ Imagine if human beings were just made to have skeletons and bare bones – how 
 
 You can also use CSS to layout elements by positioning them in specified areas of your page.
 
-
-## Code solution :
+## Code solution
 
 ```css
 
@@ -78,8 +75,6 @@ em {
 
 ```
 
-
-
 ## What is JavaScript?
 
 Now, if HTML is the markup language and CSS is the design language, then JavaScript is the programming language.
@@ -89,9 +84,7 @@ You can access any elements through the Document Object Model API (DOM) and make
 
 The DOM is a tree-like representation of the web page that gets loaded into the browser.
 
-
-
-## Code solution :
+## Code solution
 
 ```js
 
@@ -107,9 +100,7 @@ document.getElementById('sumButton').addEventListener("click", displaySum);
 
 ```
 
-
 ## **Resources:**
-<br>
 
 * [**FREECODECAMP**](https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/)
 * [**GFG**](https://www.geeksforgeeks.org/web-development/)
