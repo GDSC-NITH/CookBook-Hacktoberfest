@@ -1,17 +1,14 @@
 # Text
+
 ## **About Text Widget**
 
 [Click here to check in official docs of Flutter](https://docs.flutter.dev/development/ui/widgets/text)
 
 A Text is a widget in Flutter that allows us to **display a string of text with a single line in our application**. Depending on the layout constraints, we can break the string across multiple lines or might all be displayed on the same line. If we do not specify any styling to the text widget, it will use the closest **DefaultTextStyle** class style. This class does not have any explicit style. In this article, we are going to learn how to use a Text widget and how to style it in our application.
 
-<br>
-
 ***
-<br>
 
 ## **Text Widget Constructor**
-<br>
 
 ```Dart
 Text Text(
@@ -32,16 +29,12 @@ Text Text(
   Color? selectionColor,
 })
 ```
+
 package:flutter/src/widgets/text.dart
 
-<br>
-
 ***
-<br>
 
-## **Essential Properties of Text Widget** 
-
-<br>
+## **Essential Properties of Text Widget**
 
 1. **TextAlign:** It is used to specify how our text is aligned horizontally. It also controls the text location.
 
@@ -61,14 +54,9 @@ package:flutter/src/widgets/text.dart
 
 9. **Style:** It is the most common property of this widget that allows developers to styling their text. It can do styling by specifying the foreground and background color, font size, font weight, letter and word spacing, locale, shadows, etc.
 
-<br>
-
 ***
-<br>
 
 ## **Important points to be noted:**
-
-<br>
 
 * If the **style** argument is null, the text will use the style from the closest enclosing **DefaultTextStyle**.
 
@@ -76,15 +64,9 @@ package:flutter/src/widgets/text.dart
 
 * The **overflow** property's behavior is affected by the **softWrap** argument. If the **softWrap** is true or null, the glyph causing overflow, and those that follow, will not be rendered. Otherwise, it will be shown with the given overflow option.
 
-<br>
-
 ***
-<br>
-
 
 ## **TextStyle**
-
-<br>
 
 | Attributes | Descriptions |
 | ---------- | ------------ |
@@ -102,11 +84,7 @@ package:flutter/src/widgets/text.dart
 
 ***
 
-<br>
-
 ## **SAMPLE**
-
-<br>
 
 ### **Code**
 
@@ -154,21 +132,14 @@ class MyTextPage extends StatelessWidget {
   }  
 }  
 ```
-<br>
 
 ### **Output**
-***
-<br>
-
-<p align="center">
-  <img src="https://static.javatpoint.com/tutorial/flutter/images/flutter-text2.png" alt="Text Widget Output" width="250" height="520">
-</p>
-<br>
 
 ***
-<br>
+![Text Widget Output](https://static.javatpoint.com/tutorial/flutter/images/flutter-text2.png)
+
+***
 
 ## **Resources:**
-<br>
 
 * [**JAVAPOINT**](https://www.javatpoint.com/flutter-text)
