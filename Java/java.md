@@ -293,3 +293,11 @@ In order to create a stack, we must import java.util.stack package and use the S
 ```c
 Stack<E> stack = new Stack<E>();
 ```
+## Queues
+The Queue interface is present in java.util package and extends the Collection interface is used to hold the elements about to be processed in FIFO(First In First Out) order. It is an ordered list of objects with its use limited to inserting elements at the end of the list and deleting elements from the start of the list, (i.e.), it follows the FIFO or the First-In-First-Out principle.
+<br>
+Being an interface the queue needs a concrete class for the declaration and the most common classes are the PriorityQueue and LinkedList in Java. Note that neither of these implementations is thread-safe. PriorityBlockingQueue is one alternative implementation if the thread-safe implementation is needed.
+```c
+// Obj is the type of the object to be stored in Queue 
+Queue<Obj> queue = new PriorityQueue<Obj> ();  
+```	
