@@ -167,3 +167,20 @@ def my_function():
 # Calling a Function: To call a function, use the function name followed by parenthesis
 my_function()
 ```
+## Python List
+Python Lists are just like dynamically sized arrays, declared in other languages (vector in C++ and ArrayList in Java). In simple language, a list is a collection of things, enclosed in [ ] and separated by commas. 
+```c
+# Lists need not be homogeneous always which makes it the most powerful tool in Python. A single list may contain DataTypes like Integers, Strings, as well as Objects. Lists are mutable, and hence, they can be altered even after their creation.
+
+Var = ["Geeks", "for", "Geeks"]
+print(Var)
+```
+## Dictionary
+Dictionary in Python is a collection of keys values, used to store data values like a map, which, unlike other data types which hold only a single value as an element.
+```c
+# In Python, a dictionary can be created by placing a sequence of elements within curly {} braces, separated by ‘comma’.
+
+Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+print(Dict)
+
+```
