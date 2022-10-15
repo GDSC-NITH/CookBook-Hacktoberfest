@@ -288,3 +288,8 @@ Java Collection framework provides a Stack class that models and implements a St
 ```c
 public class Stack<E> extends Vector<E>//Declaration
 ```
+### Creation of Stack
+In order to create a stack, we must import java.util.stack package and use the Stack() constructor of this class.
+```c
+Stack<E> stack = new Stack<E>();
+```
