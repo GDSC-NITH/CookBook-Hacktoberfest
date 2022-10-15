@@ -248,7 +248,7 @@ Method in Java or Java Method is a collection of statements that perform some sp
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/methods-in-java.png);
 
-# Data Structures
+# Linear Data Structures
 
 ## Arrays
 An array in Java is a group of like-typed variables referred to by a common name. Arrays in Java work differently than they do in C/C++. An array can contain primitives (int, char, etc.) and object (or non-primitive) references of a class depending on the definition of the array. In the case of primitive data types, the actual values are stored in contiguous memory locations. In the case of class objects, the actual objects are stored in a heap segment. 
