@@ -57,22 +57,6 @@ public class MainClass {
 |Primitive | int, char, float, double, short, byte, long, boolean |
 |Non-Primitive | Classes, Interfaces, Strings, Object, Array, etc. |
 
-## Arrays
-An array in Java is a group of like-typed variables referred to by a common name. Arrays in Java work differently than they do in C/C++. An array can contain primitives (int, char, etc.) and object (or non-primitive) references of a class depending on the definition of the array. In the case of primitive data types, the actual values are stored in contiguous memory locations. In the case of class objects, the actual objects are stored in a heap segment. 
-
-### Creating, initializing and accessing an Array
-The general form of a one-dimensional array declaration is :
-```c
-type var-name[];
-OR
-type[] var-name;
-```
-* Instantiating an Array in Java
-```c
-var-name = new type [size];
-
-int[] intArray = new int[20]; // combining both statements in one
-```
 ## Strings
 String objects are stored in a special memory area known as string constant pool. To make Java more memory efficient, concept of string literal is used (because no new objects are created if it exists already in string constant pool). 
 ```c
@@ -148,3 +132,172 @@ implements: Java implements keyword is used to implement an interface.
 * void: Java void keyword is used to specify that a method does not have a return value.
 * volatile: Java volatile keyword is used to indicate that a variable may change asynchronously.
 * while: Java while keyword is used to start a while loop. This loop iterates a part of the program several times. If the number of iteration is not fixed, it is recommended to use the while loop.
+
+
+## Conditional Statements
+
+### 1. If
+
+```c
+if(conditional-expression)
+{
+    //code
+}
+```
+
+### 2. If-else
+
+```c
+if(conditional-expression)
+{
+    //code
+} else {
+    //code
+}
+```
+
+If-else using Ternary Operator
+
+```c
+variable = (condition) ? expression1 : expression2;
+```
+
+The above statement states that if the condition returns true, expression1 gets executed, else the expression2 gets executed and the final result stored in a variable.
+
+### 3. If-else-if ladder
+
+```c
+if(conditional-expression-1)
+{
+    //code
+} else if(conditional-expression-2) {
+    //code
+} else if(conditional-expression-3) {
+    //code
+}
+....
+else {
+    //code
+}
+```
+
+### 4. Switch
+
+```c
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+...    
+    
+default:     
+ //code to be executed when all the above cases are not matched;    
+} 
+```
+
+## Loops
+
+### 1. For
+
+```c
+for(Initialization; Condition; Increment/Decrement){  
+//code  
+} 
+```
+
+### 2. While
+
+```c
+while(condition){  
+//code 
+}  
+```
+
+### 3. Do-While
+
+```c
+do{  
+//code 
+} while(condition); 
+```
+### 4. For-each loop
+
+```c
+for (type var : array) 
+{ 
+    statements using var;
+}
+```
+## Methods
+Method in Java or Java Method is a collection of statements that perform some specific task and return the result to the caller. A Java method can perform some specific task without returning anything. Methods in Java allow us to reuse the code without retyping the code. In Java, every method must be part of some class that is different from languages like C, C++, and Python. 
+1. A method is like function i.e. used to expose behavior of an object.
+2. it is a set of codes that perform a particular task.
+
+```c
+<access_modifier> <return_type> <method_name>( list_of_parameters)
+{
+    //body
+}
+```
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/methods-in-java.png);
+
+# Linear Data Structures
+
+## Arrays
+An array in Java is a group of like-typed variables referred to by a common name. Arrays in Java work differently than they do in C/C++. An array can contain primitives (int, char, etc.) and object (or non-primitive) references of a class depending on the definition of the array. In the case of primitive data types, the actual values are stored in contiguous memory locations. In the case of class objects, the actual objects are stored in a heap segment. 
+
+### Creating, initializing and accessing an Array
+The general form of a one-dimensional array declaration is :
+```c
+type var-name[];
+OR
+type[] var-name;
+```
+* Instantiating an Array in Java
+```c
+var-name = new type [size];
+
+int[] intArray = new int[20]; // combining both statements in one
+```
+## Linked List
+Linked List is a part of the Collection framework present in java.util package. This class is an implementation of the LinkedList data structure which is a linear data structure where the elements are not stored in contiguous locations and every element is a separate object with a data part and address part. The elements are linked using pointers and addresses. Each element is known as a node. 
+```c
+LinkedList ll = new LinkedList();  
+```
+### Some Methods for Linked List
+* add(int index , E element);
+* addAll(Collection<E> c);
+* clear();
+* clone();
+* contains(Object o);
+* getFirst();
+* getLast();
+* indexOf();
+* lastIndexOf();
+* peek();
+
+## Stacks
+Java Collection framework provides a Stack class that models and implements a Stack data structure. The class is based on the basic principle of last-in-first-out. In addition to the basic push and pop operations, the class provides three more functions of empty, search, and peek. The class can also be said to extend Vector and treats the class as a stack with the five mentioned functions. The class can also be referred to as the subclass of Vector.
+```c
+public class Stack<E> extends Vector<E>//Declaration
+```
+### Creation of Stack
+In order to create a stack, we must import java.util.stack package and use the Stack() constructor of this class.
+```c
+Stack<E> stack = new Stack<E>();
+```
+## Queues
+The Queue interface is present in java.util package and extends the Collection interface is used to hold the elements about to be processed in FIFO(First In First Out) order. It is an ordered list of objects with its use limited to inserting elements at the end of the list and deleting elements from the start of the list, (i.e.), it follows the FIFO or the First-In-First-Out principle.
+<br>
+Being an interface the queue needs a concrete class for the declaration and the most common classes are the PriorityQueue and LinkedList in Java. Note that neither of these implementations is thread-safe. PriorityBlockingQueue is one alternative implementation if the thread-safe implementation is needed.
+```c
+// Obj is the type of the object to be stored in Queue 
+Queue<Obj> queue = new PriorityQueue<Obj> ();  
+```	
