@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url('https://images.unsplash.com/photo-1560017896-a6bf1e2acfb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYXRoZXIlMjBhcHB8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60'); */
+    /* Full height */
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  
+}
+
+.container-fluid{
+    width: 410px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.inputs{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    /* background-image: url('https://images.unsplash.com/photo-1560017896-a6bf1e2acfb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYXRoZXIlMjBhcHB8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60'); */
+    /* ackground-image: libnear-gradient(to top, #9795f0 0%, #fbc8d4 100%); */
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #c2c2c2;
+    border-radius: 2px;
+    margin-right:4px ;
+}
+.inputs input[type="submit"] {
+    height: 3.2rem;
+    width: 6.5rem;
+    background: #0a67ca;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.display {
+    text-align: center;
+    width: 400px;
+   background: green;
+    
+}
+.wrapper {
+    margin: 0 9rem;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+    background: #0548b5;
+    color: white;
+    font-family: sans-serif;
+  }
+  .wrapper p{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #04214c;
+    font-size:23px;
+  }
+
+  .wrapper h2 span{
+    font-size: 26px;
+    color: #9beefb;
+  }
+    .wrapper p span{
+    color: #90006e;
+    font-size: 25px;
+  }
