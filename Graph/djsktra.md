@@ -2,9 +2,9 @@
 Dijkstra's algorithm allows us to find the shortest path between any two vertices of a graph.
 
 
+```
 
-
-```#include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 const int N=1e5;
@@ -52,7 +52,8 @@ int main()
 		cout<<dis[i]<<" ";
 	}
 	return 0;
-}```
+}
+```
 
 ```
 ***Dijkstra's Algorithm Complexity***
