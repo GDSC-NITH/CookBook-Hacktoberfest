@@ -82,4 +82,40 @@ int main() {
 #### Output:
 ![length-cpp-eg](https://user-images.githubusercontent.com/99107358/196535404-1441a338-d1ba-4bfa-8b2a-ffab508663c8.png)
 
+## Accessing characters of String
+You can access the characters in a string by referring to its index number inside square brackets [].
+  
+  This example prints the second character in myString.
+```bash
+  #include <iostream>
+#include <string>
+using namespace std;
 
+int main() {
+  string myString = "Hello";
+  cout << myString[1];
+  return 0;
+}
+```
+  #### Output: 
+  ![access-cpp](https://user-images.githubusercontent.com/99107358/196537765-38438b97-ef95-4a51-b3bc-128e95f9d2c0.png)
+  
+### Change String Characters
+  To change the value of a specific character in a string, refer to the index number, and use single quotes.
+  
+  ```bash
+  #include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+  string myString = "Hello";
+  myString[0] = 'J';
+  cout << myString;
+  return 0;
+}
+  ```
+  
+  #### Output:
+  
+  ![cpp-eg](https://user-images.githubusercontent.com/99107358/196539950-f74e6b5e-2f31-4a8c-86ea-82cc2e1eea42.png)
