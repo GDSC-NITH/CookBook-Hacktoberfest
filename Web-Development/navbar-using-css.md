@@ -8,8 +8,7 @@ With CSS you can transform boring HTML menus into good-looking navigation bars.
 
 ## Example:
 
-A navigation bar is basically a list of links, so using the <ul> and <li> elements makes perfect sense.
-The code in the example is the standard code used in both vertical, and horizontal navigation bars.
+A navigation bar is basically a list of links, so using the ul and li elements makes perfect sense. The code in the example is the standard code used in both vertical, and horizontal navigation bars.
 
 ```bash
 <html>
