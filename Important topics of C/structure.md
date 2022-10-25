@@ -277,3 +277,4 @@ We will soon be discussing union and other struct related topics in C. Please wr
 ## RESOURCES
 
 [**GFG**](https://www.geeksforgeeks.org/structures-c/)
+[**JavaPoint**](https://www.javatpoint.com/c-pointers#:~:text=The%20pointer%20in%20C%20language,a%20pointer%20is%202%20byte.)

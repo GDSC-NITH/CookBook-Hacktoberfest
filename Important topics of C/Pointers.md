@@ -166,7 +166,3 @@ printf(“After deallocating its memory *ptr=%d”,*ptr);
 }
 
 ```
-
-## **Resources:**
-
-* [**GFG**](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)
