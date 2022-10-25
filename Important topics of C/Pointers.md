@@ -186,6 +186,7 @@ printf(“After deallocating its memory *ptr=%d”,*ptr);
 <br>
 
 * [**GFG**](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)
+* [**JavaPoint**](https://www.javatpoint.com/c-pointers#:~:text=The%20pointer%20in%20C%20language,a%20pointer%20is%202%20byte.)
 
 
 
