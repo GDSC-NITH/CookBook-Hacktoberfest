@@ -40,3 +40,5 @@ This is an experimental phase. The aim is to identify the best possible solution
 Evaluators rigorously test the prototypes. Although this is the final phase, design thinking is iterative: Teams often use the results to redefine one or more further problems. So, you can return to previous stages to make further iterations, alterations and refinements – to find or rule out alternative solutions.
 
 Overall, you should understand that these stages are different modes which contribute to the entire design project, rather than sequential steps. Your goal throughout is to gain the deepest understanding of the users and what their ideal solution/product would be.
+
+###Article by Durgesh Anand 👍
