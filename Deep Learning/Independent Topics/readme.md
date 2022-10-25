@@ -1,4 +1,4 @@
-### Contributors are Welcome to contribute to this repo by explaining these topics below in the form of blog. The code explaining these topics should be concised and properly documented.
+# Contributors are Welcome to contribute to this repo by explaining these topics below in the form of blog. The code explaining these topics should be concised and properly documented
 
 - Yolo 3,4,5,6,7
 - GANs

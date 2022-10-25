@@ -1,9 +1,8 @@
 # BFS for a Graph
+
 ## **Breadth First Search**
 
-**Breadth First Search** (BFS) algorithm traverses a graph in a breadthward motion and uses a queue to remember to get the next vertex to start a search, when a dead end occurs in any iteration 
-
-<br>
+**Breadth First Search** (BFS) algorithm traverses a graph in a breadthward motion and uses a queue to remember to get the next vertex to start a search, when a dead end occurs in any iteration
 
 ***
 
@@ -16,22 +15,18 @@ A standard BFS implementation puts each vertex of the graph into one of two cate
 
 The purpose of the algorithm is to mark each vertex as visited while avoiding cycles.
 
-## The algorithm works as follows:
+## The algorithm works as follows
 
 * Start by putting any one of the graph's vertices at the back of a queue.
 * Take the front item of the queue and add it to the visited list.
 * Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list to the back of the queue.
 * Keep repeating steps 2 and 3 until the queue is empty.
 
-
 The graph might have two different disconnected parts so to make sure that we cover every vertex, we can also run the BFS algorithm on every node
-<br>
 
 ***
 
 ## **BFS Example**
-<br>
-
 
 Let's see how the Breadth First Search algorithm works with an example. We use an undirected graph with 5 vertices.
 
@@ -55,13 +50,9 @@ Only 4 remains in the queue since the only adjacent node of 3 i.e. 0 is already 
 
 Since the queue is empty, we have completed the Breadth First Traversal of the graph.
 
-<br>
-
 ***
 
 ## **SAMPLE**
-
-<br>
 
 The code for the Breadth First Search Algorithm with an example is shown below. The code has been simplified so that we can focus on the algorithm rather than other details.
 
@@ -141,7 +132,6 @@ int main() {
   return 0;
 }  
 ```
-<br>
 
 ### **Python Code**
 
@@ -184,13 +174,9 @@ The time complexity of the BFS algorithm is represented in the form of O(V + E),
 
 The space complexity of the algorithm is O(V).
 
-<br>
-
 ***
-<br>
 
 ## **Resources:**
-<br>
 
 * [**JAVAPOINT**](https://www.javatpoint.com/breadth-first-search-algorithm)
 * [**GFG**](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)

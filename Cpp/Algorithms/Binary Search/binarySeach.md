@@ -33,7 +33,7 @@ A program that demonstrates binary search in C++ is given below.
 using namespace std;
 int binarySearch(int arr[], int p, int r, int num) {
    if (p <= r) {
-      int mid = (p + r)/2;
+      int mid = p+(r-p)/2;
       if (arr[mid] == num)
          return mid ;
       if (arr[mid] > num)
