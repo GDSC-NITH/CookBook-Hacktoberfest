@@ -1,6 +1,6 @@
 # Web API with DRF
 
-Django REST framework, working alongside Django web framework is a powerful and flexible toolkit for building a window into a database known as Web APIs. 
+Django REST framework, working alongside Django web framework is a powerful and flexible toolkit for building a window into a database known as Web APIs.
 
 ## REST API
 
@@ -13,7 +13,7 @@ Django REST framework, working alongside Django web framework is a powerful and 
 
 ## Django REST Framework
 
-**Django REST Framework** (DRF) is a feature-rich Python library build to unveil the functionality of Django application by transforming them into web APIs. The basic architecture of DRF API is composed of *Serializer*, *Viewset* and, *Router*. 
+**Django REST Framework** (DRF) is a feature-rich Python library build to unveil the functionality of Django application by transforming them into web APIs. The basic architecture of DRF API is composed of *Serializer*, *Viewset* and, *Router*.
 
 ---
 
@@ -21,7 +21,7 @@ Django REST framework, working alongside Django web framework is a powerful and 
 
 To get started, let's take an example of a simple Library website.
 
-### 		<u>Set up Django</u>
+### <u>Set up Django</u>
 
 Make a dedicated directory, set-up a virtual environment, and create a traditional Django project, let's say *my_library*, verify that it works and thereby, add an app *novels* by following the given commands.
 
@@ -55,7 +55,7 @@ Then, sync the database by running the following command.
 #novels/models.py
 from django.db import models
 class Novel(models.Model)
-	title = models.Charfield(max_length=150)
+ title = models.Charfield(max_length=150)
     author = models.Charfield(max_length=100)
     def __str__(self):
         return self.title
@@ -83,7 +83,7 @@ from .models import Novel
 admin.site.register(Novel)
 ```
 
-Now, run the local server, navigate to http://127.0.0.1:8000/admin , login with the superuser credentials and enter data into the panel. (Views and URLs configurations are mentioned in the later section.)
+Now, run the local server, navigate to <http://127.0.0.1:8000/admin> , login with the superuser credentials and enter data into the panel. (Views and URLs configurations are mentioned in the later section.)
 
 ### <u>Set up Django REST Framework</u>
 
@@ -108,9 +108,9 @@ Serialization is the process of converting a `model` into `JSON` and to get star
 from rest_framework import serializers
 from novels.models import Novel
 class NovelSerializer(serializers.ModelSerializer):
-	class Meta:
-		model = Novel
-		fields = ('title', 'author')
+ class Meta:
+  model = Novel
+  fields = ('title', 'author')
 ```
 
 ### <u>Views</u>
@@ -122,8 +122,8 @@ Following the generic class-based views and `ListAPIView` (read-only endpoint), 
 from django.views.generic import ListView
 from .models import Novel
 class NovelListView(ListView):
-	model = Novel
-	template_name = 'novels.html'
+ model = Novel
+ template_name = 'novels.html'
 ```
 
 ```python
@@ -132,8 +132,8 @@ from rest_framework import generics
 from novels.models import Novel
 from .serializers import NovelSerializer
 class NovelAPIView(generics.ListAPIView):
-	queryset = Novel.objects.all()
-	serializer_class = NovelSerializer
+ queryset = Novel.objects.all()
+ serializer_class = NovelSerializer
 ```
 
 *Note*: Create `novels.html` in novels folder which in turn is supposed to be created in *templates* folder within *novels* app. Furthermore, update the file as per requirement.
@@ -147,8 +147,8 @@ In order to point the URLs at the correct viewsets, we need to take take the con
 from django.contrib import admin
 from django.urls import path, include
 urlpatterns = [ path('admin/', admin.site.urls),
-				path('', include('novels.urls')),
-				path('api/', include('api.urls')), ]
+    path('', include('novels.urls')),
+    path('api/', include('api.urls')), ]
 ```
 
 ```python
@@ -167,14 +167,11 @@ urlpatterns = [ path('', NovelAPIView.as_view()), ]
 
 ### <u>Testing API</u>
 
-Now, it's all set to test how API endpoint looks like. Start up the local server and navigate to http://127.0.0.1:8000/api/.
+Now, it's all set to test how API endpoint looks like. Start up the local server and navigate to <http://127.0.0.1:8000/api/>.
 
 ### <u>References</u>
 
-1. https://www.djangoproject.com/
-2. https://www.django-rest-framework.org/
+1. <https://www.djangoproject.com/>
+2. <https://www.django-rest-framework.org/>
 3. Django for APIs by William S. Vincent
-		
-
-
-
+  
