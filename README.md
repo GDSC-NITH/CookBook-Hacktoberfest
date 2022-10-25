@@ -1,4 +1,4 @@
-
+# ⚠️⚠️⚠️Excluded from Hacktober 2022⚠️⚠️⚠️ 
 <p align="center">
    <img src="https://tipseason.com/assets/images/hacktoberfest-banner.jpg" alt="hacktoberfest-banner" width="640" height="320" />
 </p>
