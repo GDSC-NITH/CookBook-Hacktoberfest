@@ -1,7 +1,8 @@
-## What Are Pointers in C?
+#
+ What Are Pointers in C?
 
-A pointer is a variable pointing to the address of another variable. 
-It is declared along with an asterisk symbol (*). 
+A pointer is a variable pointing to the address of another variable.
+It is declared along with an asterisk symbol (*).
 
 The syntax to declare a pointer is as follows:
 
@@ -13,11 +14,9 @@ The syntax to assign the address of a variable to a pointer is:
 
 var2=&var1;
 
-
-## Code solution :
+## Code solution
 
 ```c
-
 #include<stdio.h>
 
 int main()
@@ -38,9 +37,7 @@ printf(“Indirect Access, a=%d\n”,*ptr);
 
 ```
 
-
-
-## Void Pointer:
+## Void Pointer
 
 When a pointer is declared with a void keyword, then it is called a void pointer.
 To print the value of this pointer, you need to typecast it.
@@ -49,8 +46,7 @@ Syntax:
 
 void *var;
 
-
-## Code solution :
+## Code solution
 
 ```c
 
@@ -76,9 +72,7 @@ printf("After Typecasting, a = %d", *(int *)ptr);
 
 ```
 
-
-
-## NULL Pointer:
+## NULL Pointer
 
 If you assign a NULL value to a pointer during its declaration, it is called Null Pointer.
 
@@ -86,8 +80,7 @@ Syntax:
 
 Int *var = NULL;
 
-
-## Code solution :
+## Code solution
 
 ```c
 
@@ -105,19 +98,16 @@ printf(“var=%d”,*var);
 
 ```
 
+## Wild Pointer
 
-
-## Wild Pointer:
-
-A wild pointer is only declared but not assigned an address of any variable. 
+A wild pointer is only declared but not assigned an address of any variable.
 They are very tricky, and they may cause segmentation errors.
 
 Syntax:
 
 Int *var = NULL;
 
-
-## Code solution :
+## Code solution
 
 ```c
 
@@ -137,11 +127,9 @@ int main()
 
 ```
 
+## Dangling Pointer
 
-
-## Dangling Pointer:
-
-Suppose there is a pointer p pointing at a variable at memory 1004. 
+Suppose there is a pointer p pointing at a variable at memory 1004.
 If you deallocate this memory, then this p is called a dangling pointer.
 You can deallocate a memory using a free() function.
 
@@ -149,8 +137,7 @@ Syntax:
 
 Int *var = NULL;
 
-
-## Code solution :
+## Code solution
 
 ```c
 
@@ -179,14 +166,3 @@ printf(“After deallocating its memory *ptr=%d”,*ptr);
 }
 
 ```
-
-
-
-## **Resources:**
-<br>
-
-* [**GFG**](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)
-
-
-
-
